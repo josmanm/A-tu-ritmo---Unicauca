@@ -1,0 +1,668 @@
+{
+  "song_id": "los_pollitos_dicen",
+  "title": "Los pollitos dicen",
+  "version": "arreglo instrumental didactico A Tu Ritmo",
+  "bpm": 80,
+  "time_signature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "bars": 16,
+  "beat_count": 64,
+  "duration_seconds": 48.0,
+  "seconds_per_beat": 0.75,
+  "first_beat_offset_seconds": 0.0,
+  "count_in_beats": 0,
+  "loop_start_seconds": 0.0,
+  "loop_end_seconds": 48.0,
+  "audio_file": "Los_Pollitos_Dicen_80BPM_Musica_Sin_Click_Guia.wav",
+  "guide_file": "Los_Pollitos_Dicen_80BPM_Pulso_Guia_Solo.wav",
+  "animal_stems": {
+    "mono": "Los_Pollitos_Dicen_80BPM_Mono_Tambor_Solo.wav",
+    "gato": "Los_Pollitos_Dicen_80BPM_Gato_Maracas_Solo.wav",
+    "oso": "Los_Pollitos_Dicen_80BPM_Oso_Pandereta_Solo.wav"
+  },
+  "beats": [
+    {
+      "index": 0,
+      "bar": 1,
+      "beat_in_bar": 1,
+      "time_seconds": 0.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 1,
+      "bar": 1,
+      "beat_in_bar": 2,
+      "time_seconds": 0.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 2,
+      "bar": 1,
+      "beat_in_bar": 3,
+      "time_seconds": 1.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 3,
+      "bar": 1,
+      "beat_in_bar": 4,
+      "time_seconds": 2.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 4,
+      "bar": 2,
+      "beat_in_bar": 1,
+      "time_seconds": 3.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 5,
+      "bar": 2,
+      "beat_in_bar": 2,
+      "time_seconds": 3.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 6,
+      "bar": 2,
+      "beat_in_bar": 3,
+      "time_seconds": 4.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 7,
+      "bar": 2,
+      "beat_in_bar": 4,
+      "time_seconds": 5.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 8,
+      "bar": 3,
+      "beat_in_bar": 1,
+      "time_seconds": 6.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 9,
+      "bar": 3,
+      "beat_in_bar": 2,
+      "time_seconds": 6.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 10,
+      "bar": 3,
+      "beat_in_bar": 3,
+      "time_seconds": 7.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 11,
+      "bar": 3,
+      "beat_in_bar": 4,
+      "time_seconds": 8.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 12,
+      "bar": 4,
+      "beat_in_bar": 1,
+      "time_seconds": 9.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 13,
+      "bar": 4,
+      "beat_in_bar": 2,
+      "time_seconds": 9.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 14,
+      "bar": 4,
+      "beat_in_bar": 3,
+      "time_seconds": 10.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 15,
+      "bar": 4,
+      "beat_in_bar": 4,
+      "time_seconds": 11.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 16,
+      "bar": 5,
+      "beat_in_bar": 1,
+      "time_seconds": 12.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 17,
+      "bar": 5,
+      "beat_in_bar": 2,
+      "time_seconds": 12.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 18,
+      "bar": 5,
+      "beat_in_bar": 3,
+      "time_seconds": 13.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 19,
+      "bar": 5,
+      "beat_in_bar": 4,
+      "time_seconds": 14.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 20,
+      "bar": 6,
+      "beat_in_bar": 1,
+      "time_seconds": 15.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 21,
+      "bar": 6,
+      "beat_in_bar": 2,
+      "time_seconds": 15.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 22,
+      "bar": 6,
+      "beat_in_bar": 3,
+      "time_seconds": 16.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 23,
+      "bar": 6,
+      "beat_in_bar": 4,
+      "time_seconds": 17.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 24,
+      "bar": 7,
+      "beat_in_bar": 1,
+      "time_seconds": 18.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 25,
+      "bar": 7,
+      "beat_in_bar": 2,
+      "time_seconds": 18.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 26,
+      "bar": 7,
+      "beat_in_bar": 3,
+      "time_seconds": 19.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 27,
+      "bar": 7,
+      "beat_in_bar": 4,
+      "time_seconds": 20.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 28,
+      "bar": 8,
+      "beat_in_bar": 1,
+      "time_seconds": 21.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 29,
+      "bar": 8,
+      "beat_in_bar": 2,
+      "time_seconds": 21.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 30,
+      "bar": 8,
+      "beat_in_bar": 3,
+      "time_seconds": 22.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 31,
+      "bar": 8,
+      "beat_in_bar": 4,
+      "time_seconds": 23.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 32,
+      "bar": 9,
+      "beat_in_bar": 1,
+      "time_seconds": 24.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 33,
+      "bar": 9,
+      "beat_in_bar": 2,
+      "time_seconds": 24.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 34,
+      "bar": 9,
+      "beat_in_bar": 3,
+      "time_seconds": 25.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 35,
+      "bar": 9,
+      "beat_in_bar": 4,
+      "time_seconds": 26.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 36,
+      "bar": 10,
+      "beat_in_bar": 1,
+      "time_seconds": 27.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 37,
+      "bar": 10,
+      "beat_in_bar": 2,
+      "time_seconds": 27.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 38,
+      "bar": 10,
+      "beat_in_bar": 3,
+      "time_seconds": 28.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 39,
+      "bar": 10,
+      "beat_in_bar": 4,
+      "time_seconds": 29.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 40,
+      "bar": 11,
+      "beat_in_bar": 1,
+      "time_seconds": 30.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 41,
+      "bar": 11,
+      "beat_in_bar": 2,
+      "time_seconds": 30.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 42,
+      "bar": 11,
+      "beat_in_bar": 3,
+      "time_seconds": 31.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 43,
+      "bar": 11,
+      "beat_in_bar": 4,
+      "time_seconds": 32.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 44,
+      "bar": 12,
+      "beat_in_bar": 1,
+      "time_seconds": 33.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 45,
+      "bar": 12,
+      "beat_in_bar": 2,
+      "time_seconds": 33.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 46,
+      "bar": 12,
+      "beat_in_bar": 3,
+      "time_seconds": 34.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 47,
+      "bar": 12,
+      "beat_in_bar": 4,
+      "time_seconds": 35.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 48,
+      "bar": 13,
+      "beat_in_bar": 1,
+      "time_seconds": 36.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 49,
+      "bar": 13,
+      "beat_in_bar": 2,
+      "time_seconds": 36.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 50,
+      "bar": 13,
+      "beat_in_bar": 3,
+      "time_seconds": 37.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 51,
+      "bar": 13,
+      "beat_in_bar": 4,
+      "time_seconds": 38.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 52,
+      "bar": 14,
+      "beat_in_bar": 1,
+      "time_seconds": 39.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 53,
+      "bar": 14,
+      "beat_in_bar": 2,
+      "time_seconds": 39.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 54,
+      "bar": 14,
+      "beat_in_bar": 3,
+      "time_seconds": 40.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 55,
+      "bar": 14,
+      "beat_in_bar": 4,
+      "time_seconds": 41.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 56,
+      "bar": 15,
+      "beat_in_bar": 1,
+      "time_seconds": 42.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 57,
+      "bar": 15,
+      "beat_in_bar": 2,
+      "time_seconds": 42.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 58,
+      "bar": 15,
+      "beat_in_bar": 3,
+      "time_seconds": 43.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 59,
+      "bar": 15,
+      "beat_in_bar": 4,
+      "time_seconds": 44.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 60,
+      "bar": 16,
+      "beat_in_bar": 1,
+      "time_seconds": 45.0,
+      "accent": true,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 61,
+      "bar": 16,
+      "beat_in_bar": 2,
+      "time_seconds": 45.75,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 62,
+      "bar": 16,
+      "beat_in_bar": 3,
+      "time_seconds": 46.5,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    },
+    {
+      "index": 63,
+      "bar": 16,
+      "beat_in_bar": 4,
+      "time_seconds": 47.25,
+      "accent": false,
+      "mono": true,
+      "gato": true,
+      "oso": true
+    }
+  ],
+  "implementation_notes": "El tiempo 0 coincide con el primer pulso. Programar la reproduccion DSP de todos los stems al mismo instante; no duplicar la percusion al combinar la mezcla completa con stems."
+}

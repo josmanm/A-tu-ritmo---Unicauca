@@ -1,0 +1,486 @@
+{
+  "title": "La Cucaracha - arreglo didactico para A Tu Ritmo",
+  "origin": "Melodia folklorica tradicional; version instrumental nueva en 4/4",
+  "tempo_bpm": 80,
+  "beats_per_bar": 4,
+  "beat_duration_seconds": 0.75,
+  "bars": 16,
+  "total_beats": 64,
+  "duration_seconds": 48.0,
+  "first_beat_offset_seconds": 0.0,
+  "notes": "Los tiempos son relativos al inicio del WAV. Programar con DSP clock y no evaluar por frame.",
+  "beats": [
+    {
+      "index": 0,
+      "bar": 1,
+      "beat_in_bar": 1,
+      "time_seconds": 0.0,
+      "accent": true
+    },
+    {
+      "index": 1,
+      "bar": 1,
+      "beat_in_bar": 2,
+      "time_seconds": 0.75,
+      "accent": false
+    },
+    {
+      "index": 2,
+      "bar": 1,
+      "beat_in_bar": 3,
+      "time_seconds": 1.5,
+      "accent": false
+    },
+    {
+      "index": 3,
+      "bar": 1,
+      "beat_in_bar": 4,
+      "time_seconds": 2.25,
+      "accent": false
+    },
+    {
+      "index": 4,
+      "bar": 2,
+      "beat_in_bar": 1,
+      "time_seconds": 3.0,
+      "accent": true
+    },
+    {
+      "index": 5,
+      "bar": 2,
+      "beat_in_bar": 2,
+      "time_seconds": 3.75,
+      "accent": false
+    },
+    {
+      "index": 6,
+      "bar": 2,
+      "beat_in_bar": 3,
+      "time_seconds": 4.5,
+      "accent": false
+    },
+    {
+      "index": 7,
+      "bar": 2,
+      "beat_in_bar": 4,
+      "time_seconds": 5.25,
+      "accent": false
+    },
+    {
+      "index": 8,
+      "bar": 3,
+      "beat_in_bar": 1,
+      "time_seconds": 6.0,
+      "accent": true
+    },
+    {
+      "index": 9,
+      "bar": 3,
+      "beat_in_bar": 2,
+      "time_seconds": 6.75,
+      "accent": false
+    },
+    {
+      "index": 10,
+      "bar": 3,
+      "beat_in_bar": 3,
+      "time_seconds": 7.5,
+      "accent": false
+    },
+    {
+      "index": 11,
+      "bar": 3,
+      "beat_in_bar": 4,
+      "time_seconds": 8.25,
+      "accent": false
+    },
+    {
+      "index": 12,
+      "bar": 4,
+      "beat_in_bar": 1,
+      "time_seconds": 9.0,
+      "accent": true
+    },
+    {
+      "index": 13,
+      "bar": 4,
+      "beat_in_bar": 2,
+      "time_seconds": 9.75,
+      "accent": false
+    },
+    {
+      "index": 14,
+      "bar": 4,
+      "beat_in_bar": 3,
+      "time_seconds": 10.5,
+      "accent": false
+    },
+    {
+      "index": 15,
+      "bar": 4,
+      "beat_in_bar": 4,
+      "time_seconds": 11.25,
+      "accent": false
+    },
+    {
+      "index": 16,
+      "bar": 5,
+      "beat_in_bar": 1,
+      "time_seconds": 12.0,
+      "accent": true
+    },
+    {
+      "index": 17,
+      "bar": 5,
+      "beat_in_bar": 2,
+      "time_seconds": 12.75,
+      "accent": false
+    },
+    {
+      "index": 18,
+      "bar": 5,
+      "beat_in_bar": 3,
+      "time_seconds": 13.5,
+      "accent": false
+    },
+    {
+      "index": 19,
+      "bar": 5,
+      "beat_in_bar": 4,
+      "time_seconds": 14.25,
+      "accent": false
+    },
+    {
+      "index": 20,
+      "bar": 6,
+      "beat_in_bar": 1,
+      "time_seconds": 15.0,
+      "accent": true
+    },
+    {
+      "index": 21,
+      "bar": 6,
+      "beat_in_bar": 2,
+      "time_seconds": 15.75,
+      "accent": false
+    },
+    {
+      "index": 22,
+      "bar": 6,
+      "beat_in_bar": 3,
+      "time_seconds": 16.5,
+      "accent": false
+    },
+    {
+      "index": 23,
+      "bar": 6,
+      "beat_in_bar": 4,
+      "time_seconds": 17.25,
+      "accent": false
+    },
+    {
+      "index": 24,
+      "bar": 7,
+      "beat_in_bar": 1,
+      "time_seconds": 18.0,
+      "accent": true
+    },
+    {
+      "index": 25,
+      "bar": 7,
+      "beat_in_bar": 2,
+      "time_seconds": 18.75,
+      "accent": false
+    },
+    {
+      "index": 26,
+      "bar": 7,
+      "beat_in_bar": 3,
+      "time_seconds": 19.5,
+      "accent": false
+    },
+    {
+      "index": 27,
+      "bar": 7,
+      "beat_in_bar": 4,
+      "time_seconds": 20.25,
+      "accent": false
+    },
+    {
+      "index": 28,
+      "bar": 8,
+      "beat_in_bar": 1,
+      "time_seconds": 21.0,
+      "accent": true
+    },
+    {
+      "index": 29,
+      "bar": 8,
+      "beat_in_bar": 2,
+      "time_seconds": 21.75,
+      "accent": false
+    },
+    {
+      "index": 30,
+      "bar": 8,
+      "beat_in_bar": 3,
+      "time_seconds": 22.5,
+      "accent": false
+    },
+    {
+      "index": 31,
+      "bar": 8,
+      "beat_in_bar": 4,
+      "time_seconds": 23.25,
+      "accent": false
+    },
+    {
+      "index": 32,
+      "bar": 9,
+      "beat_in_bar": 1,
+      "time_seconds": 24.0,
+      "accent": true
+    },
+    {
+      "index": 33,
+      "bar": 9,
+      "beat_in_bar": 2,
+      "time_seconds": 24.75,
+      "accent": false
+    },
+    {
+      "index": 34,
+      "bar": 9,
+      "beat_in_bar": 3,
+      "time_seconds": 25.5,
+      "accent": false
+    },
+    {
+      "index": 35,
+      "bar": 9,
+      "beat_in_bar": 4,
+      "time_seconds": 26.25,
+      "accent": false
+    },
+    {
+      "index": 36,
+      "bar": 10,
+      "beat_in_bar": 1,
+      "time_seconds": 27.0,
+      "accent": true
+    },
+    {
+      "index": 37,
+      "bar": 10,
+      "beat_in_bar": 2,
+      "time_seconds": 27.75,
+      "accent": false
+    },
+    {
+      "index": 38,
+      "bar": 10,
+      "beat_in_bar": 3,
+      "time_seconds": 28.5,
+      "accent": false
+    },
+    {
+      "index": 39,
+      "bar": 10,
+      "beat_in_bar": 4,
+      "time_seconds": 29.25,
+      "accent": false
+    },
+    {
+      "index": 40,
+      "bar": 11,
+      "beat_in_bar": 1,
+      "time_seconds": 30.0,
+      "accent": true
+    },
+    {
+      "index": 41,
+      "bar": 11,
+      "beat_in_bar": 2,
+      "time_seconds": 30.75,
+      "accent": false
+    },
+    {
+      "index": 42,
+      "bar": 11,
+      "beat_in_bar": 3,
+      "time_seconds": 31.5,
+      "accent": false
+    },
+    {
+      "index": 43,
+      "bar": 11,
+      "beat_in_bar": 4,
+      "time_seconds": 32.25,
+      "accent": false
+    },
+    {
+      "index": 44,
+      "bar": 12,
+      "beat_in_bar": 1,
+      "time_seconds": 33.0,
+      "accent": true
+    },
+    {
+      "index": 45,
+      "bar": 12,
+      "beat_in_bar": 2,
+      "time_seconds": 33.75,
+      "accent": false
+    },
+    {
+      "index": 46,
+      "bar": 12,
+      "beat_in_bar": 3,
+      "time_seconds": 34.5,
+      "accent": false
+    },
+    {
+      "index": 47,
+      "bar": 12,
+      "beat_in_bar": 4,
+      "time_seconds": 35.25,
+      "accent": false
+    },
+    {
+      "index": 48,
+      "bar": 13,
+      "beat_in_bar": 1,
+      "time_seconds": 36.0,
+      "accent": true
+    },
+    {
+      "index": 49,
+      "bar": 13,
+      "beat_in_bar": 2,
+      "time_seconds": 36.75,
+      "accent": false
+    },
+    {
+      "index": 50,
+      "bar": 13,
+      "beat_in_bar": 3,
+      "time_seconds": 37.5,
+      "accent": false
+    },
+    {
+      "index": 51,
+      "bar": 13,
+      "beat_in_bar": 4,
+      "time_seconds": 38.25,
+      "accent": false
+    },
+    {
+      "index": 52,
+      "bar": 14,
+      "beat_in_bar": 1,
+      "time_seconds": 39.0,
+      "accent": true
+    },
+    {
+      "index": 53,
+      "bar": 14,
+      "beat_in_bar": 2,
+      "time_seconds": 39.75,
+      "accent": false
+    },
+    {
+      "index": 54,
+      "bar": 14,
+      "beat_in_bar": 3,
+      "time_seconds": 40.5,
+      "accent": false
+    },
+    {
+      "index": 55,
+      "bar": 14,
+      "beat_in_bar": 4,
+      "time_seconds": 41.25,
+      "accent": false
+    },
+    {
+      "index": 56,
+      "bar": 15,
+      "beat_in_bar": 1,
+      "time_seconds": 42.0,
+      "accent": true
+    },
+    {
+      "index": 57,
+      "bar": 15,
+      "beat_in_bar": 2,
+      "time_seconds": 42.75,
+      "accent": false
+    },
+    {
+      "index": 58,
+      "bar": 15,
+      "beat_in_bar": 3,
+      "time_seconds": 43.5,
+      "accent": false
+    },
+    {
+      "index": 59,
+      "bar": 15,
+      "beat_in_bar": 4,
+      "time_seconds": 44.25,
+      "accent": false
+    },
+    {
+      "index": 60,
+      "bar": 16,
+      "beat_in_bar": 1,
+      "time_seconds": 45.0,
+      "accent": true
+    },
+    {
+      "index": 61,
+      "bar": 16,
+      "beat_in_bar": 2,
+      "time_seconds": 45.75,
+      "accent": false
+    },
+    {
+      "index": 62,
+      "bar": 16,
+      "beat_in_bar": 3,
+      "time_seconds": 46.5,
+      "accent": false
+    },
+    {
+      "index": 63,
+      "bar": 16,
+      "beat_in_bar": 4,
+      "time_seconds": 47.25,
+      "accent": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "Estribillo 1",
+      "from_bar": 1,
+      "to_bar": 8
+    },
+    {
+      "name": "Estribillo 2",
+      "from_bar": 9,
+      "to_bar": 16
+    }
+  ],
+  "file_names": {
+    "Musica_Con_Pulso": "La_Cucaracha_80BPM_Musica_Con_Pulso.wav",
+    "Musica_Sin_Click_Guia": "La_Cucaracha_80BPM_Musica_Sin_Click_Guia.wav",
+    "Pulso_Guia_Solo": "La_Cucaracha_80BPM_Pulso_Guia_Solo.wav",
+    "Melodia_Sola": "La_Cucaracha_80BPM_Melodia_Sola.wav",
+    "Acompanamiento_Solo": "La_Cucaracha_80BPM_Acompanamiento_Solo.wav",
+    "Base_Armonia_y_Bajo": "La_Cucaracha_80BPM_Base_Armonia_y_Bajo.wav",
+    "Melodia_y_Base_Sin_Animales": "La_Cucaracha_80BPM_Melodia_y_Base_Sin_Animales.wav",
+    "Mono_Tambor_Solo": "La_Cucaracha_80BPM_Mono_Tambor_Solo.wav",
+    "Gato_Maracas_Solo": "La_Cucaracha_80BPM_Gato_Maracas_Solo.wav",
+    "Oso_Pandereta_Solo": "La_Cucaracha_80BPM_Oso_Pandereta_Solo.wav"
+  }
+}

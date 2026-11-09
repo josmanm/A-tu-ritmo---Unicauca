@@ -1,0 +1,99 @@
+{
+  "_readme": "Margins are in 1x px (multiply by 2 or 3 for the 2x/3x PNG). \"horizontal\" pieces stretch in width only: keep their height. \"vertical\" pieces stretch in height only. \"both\" is a full 9-slice.",
+  "elements": {
+    "btn_pill_wide_192x72": {
+      "size": [
+        192,
+        72
+      ],
+      "margins": {
+        "left": 36,
+        "top": 36,
+        "right": 36,
+        "bottom": 36
+      },
+      "stretch": "horizontal",
+      "files": [
+        "buttons/btn_pill_wide_192x72_green_normal.svg",
+        "buttons/btn_pill_wide_192x72_green_hover.svg",
+        "buttons/btn_pill_wide_192x72_green_pressed.svg",
+        "buttons/btn_pill_wide_192x72_green_disabled.svg",
+        "buttons/btn_pill_wide_192x72_green_focused.svg",
+        "buttons/btn_pill_wide_192x72_orange_normal.svg",
+        "buttons/btn_pill_wide_192x72_orange_hover.svg",
+        "buttons/btn_pill_wide_192x72_orange_pressed.svg",
+        "buttons/btn_pill_wide_192x72_orange_disabled.svg",
+        "buttons/btn_pill_wide_192x72_orange_focused.svg"
+      ],
+      "note": "3-slice, horizontal only: keep the height at 72 px (the lip and face are fixed-height art)"
+    },
+    "panel_window_320x256": {
+      "size": [
+        320,
+        256
+      ],
+      "margins": {
+        "left": 32,
+        "top": 64,
+        "right": 32,
+        "bottom": 32
+      },
+      "stretch": "both",
+      "files": [
+        "panels/panel_window_320x256.svg"
+      ],
+      "note": "cream window with a 60 px header strip; the title goes in the header"
+    },
+    "progress_frame_256x40": {
+      "size": [
+        256,
+        40
+      ],
+      "margins": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      },
+      "stretch": "horizontal",
+      "files": [
+        "bars/progress_frame_256x40.svg"
+      ],
+      "note": "3-slice horizontal: keep the height; the fill lives 4 px inside"
+    },
+    "progress_fill_248x32": {
+      "size": [
+        248,
+        32
+      ],
+      "margins": {
+        "left": 16,
+        "top": 16,
+        "right": 16,
+        "bottom": 16
+      },
+      "stretch": "horizontal",
+      "files": [
+        "bars/progress_fill_248x32_green.svg"
+      ],
+      "note": "3-slice horizontal: keep the height"
+    },
+    "counter_plate_192x56": {
+      "size": [
+        192,
+        56
+      ],
+      "margins": {
+        "left": 60,
+        "top": 28,
+        "right": 24,
+        "bottom": 28
+      },
+      "stretch": "horizontal",
+      "files": [
+        "bars/counter_coin_192x56.svg"
+      ],
+      "note": "3-slice horizontal: the icon sits in the 60 px left margin; keep the height"
+    }
+  }
+}

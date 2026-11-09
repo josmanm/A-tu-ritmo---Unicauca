@@ -1,0 +1,49 @@
+A TU RITMO — BANDA RÍTMICA
+LOS POLLITOS DICEN (ARREGLO INSTRUMENTAL DIDÁCTICO)
+
+TEMPO: 80 BPM | COMPÁS: 4/4 | 16 compases | DURACIÓN: 48.000 s
+64 pulsos separados por 0.750 s. Primer pulso en segundo 0.
+
+Este arreglo utiliza una variante didáctica tradicional reconocible de la melodía en DO mayor
+(repetida dos veces):
+  DO RE MI FA | SOL (2 pulsos) SOL (2 pulsos)
+  LA DO' LA DO' | SOL (2 pulsos) SOL (2 pulsos)
+  FA FA FA SOL | MI (2 pulsos) MI (2 pulsos)
+  RE RE RE MI | DO (2 pulsos) DO (2 pulsos)
+Es instrumental; no incluye voces. No se usó ninguna grabación comercial.
+
+ARCHIVOS:
+- Los_Pollitos_Dicen_80BPM_Escuchar.mp3: versión completa con guía auditiva de pulso.
+- Los_Pollitos_Dicen_80BPM_Musica_Con_Pulso.wav: música + instrumentos animales + guía, tutorial.
+- Los_Pollitos_Dicen_80BPM_Musica_Sin_Click_Guia.wav: música + animales sin clic adicional.
+- Los_Pollitos_Dicen_80BPM_Pulso_Guia_Solo.wav: guía separada, reproducir al mismo instante que la música.
+- Los_Pollitos_Dicen_80BPM_Melodia_Sola.wav: instrumento melódico, marimba.
+- Los_Pollitos_Dicen_80BPM_Acompanamiento_Solo.wav: acompañamiento armónico y bajo.
+- Los_Pollitos_Dicen_80BPM_Bajo_Solo.wav: bajo aislado.
+- Los_Pollitos_Dicen_80BPM_Mono_Tambor_Solo.wav: capa del mono.
+- Los_Pollitos_Dicen_80BPM_Gato_Maracas_Solo.wav: capa del gato.
+- Los_Pollitos_Dicen_80BPM_Oso_Pandereta_Solo.wav: capa del oso.
+- Los_Pollitos_Dicen_80BPM_Melodia_y_Base_Sin_Animales.wav: solo música y base, ideal para sumar animal por animal.
+- Los_Pollitos_Dicen_80BPM_Editable.mid: pistas MIDI separadas, tempo editable.
+- Los_Pollitos_Dicen_80BPM_BeatMap_Unity.json: tiempos y acentos del pulso.
+
+IMPLEMENTACIÓN EN UNITY:
+Opción sencilla: reproduce Musica_Con_Pulso.wav y no actives por separado las pistas de animales.
+Opción dinámica: reproduce Melodia_y_Base_Sin_Animales.wav y añade solo los stems
+Mono_Tambor, Gato_Maracas y Oso_Pandereta al entrar cada animal. Puedes añadir
+Pulso_Guia_Solo.wav durante el tutorial.
+Usa AudioSettings.dspTime y AudioSource.PlayScheduled para iniciar todos los AudioSource
+con el mismo dspStartTime; así no se desincronizan.
+Atención: No combines Musica_Con_Pulso.wav con los stems animales pues los duplicarías.
+
+MIDI:
+Abre Editable.mid en MuseScore, REAPER, LMMS o cualquier secuenciador MIDI.
+Selecciona 100 / 120 / 140 BPM y exporta nuevamente audio desde el editor.
+Para cada nuevo BPM, actualiza el BeatMap: seconds_per_beat = 60 / BPM;
+duration_seconds = 16 * 4 * 60 / BPM.
+Los WAV actuales están fijados a 80 BPM; el MIDI sí se puede editar.
+
+Sonidos sintetizados mediante un soundfont GM local TimGM6mb.sf2
+(paquete Debian, soundfont con licencia GPL-2; verificar implicaciones
+antes de distribuir el audio integrado en un producto publicado).
+Arreglo y secuenciación nuevos. Melodía infantil tradicional.

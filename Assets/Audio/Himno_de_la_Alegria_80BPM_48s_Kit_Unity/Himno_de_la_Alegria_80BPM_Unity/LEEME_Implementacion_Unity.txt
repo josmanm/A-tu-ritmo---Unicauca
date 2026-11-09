@@ -1,0 +1,35 @@
+HIMNO DE LA ALEGRIA — KIT PARA BANDA RITMICA (A TU RITMO)
+
+Cancion: Himno de la alegria / Ode to Joy, melodia de Ludwig van Beethoven (1824, dominio publico).
+Arreglo instrumental original generado para el prototipo educativo.
+Tempo constante: 80 BPM
+Compas: 4/4
+Duracion de la frase completa: 48 segundos (16 compases x 4 pulsos x 0.75 s)
+Tonalidad: Do mayor (C major)
+Frecuencia de muestreo WAV: 44100 Hz, PCM 16-bit, estereo
+
+ARCHIVOS:
+- Himno_de_la_Alegria_80BPM_Musica_Con_Pulso.wav: mezcla completa + click de guia audible
+- Himno_de_la_Alegria_80BPM_Musica_Sin_Click_Guia.wav: mezcla con percusion regular, sin click extra
+- Himno_de_la_Alegria_80BPM_Pulso_Guia_Solo.wav: click de guia aislado con el tiempo 1 acentuado
+- Himno_de_la_Alegria_80BPM_Melodia_Sola.wav: solo melodia de marimba
+- Himno_de_la_Alegria_80BPM_Acompanamiento_Solo.wav: pad, bajo y percusion musical
+- Himno_de_la_Alegria_80BPM_Escuchar.mp3: muestra para escuchar
+- Himno_de_la_Alegria_80BPM_Editable.mid: 6 pistas editables (melodia, pad, bajo, percusion y click) + tempo/compas en cabecera
+- Himno_de_la_Alegria_80BPM_BeatMap_Unity.json: tiempos exactos de pulsos y notas de melodia
+
+UNITY:
+1) Importar WAV como AudioClip. Si las pistas se mezclan, iniciarlas todas con
+   AudioSource.PlayScheduled(mismoDSPStartTime), a volumen adecuado.
+2) AudioClip con pulso y sin click son ALTERNATIVAS. No reproducir ambas a la vez.
+3) El primer pulso arranca exactamente en 0.000 s. Intervalo de pulso: 0.750 s.
+4) Para tutorial, reproducir mezcla con pulso o mezcla sin click + pista de guia.
+5) Para juego sin ayuda, solo mezcla sin click, el pulso musical sigue presente.
+6) La melodia tiene notas que no son siempre negras, pero el pulso SI permanece fijo.
+7) Para versiones a otro BPM, cambiar el tempo en el editor MIDI y volver a renderizar
+   todos los WAV. NO cambiar el campo BPM del juego sin cambiar la pista real.
+8) Los tiempos del BeatMap son validos SOLO para esta version de 80 BPM.
+9) Validar la latencia de audio y la tolerancia de toques en las tablets reales.
+
+TIP: La percusion integrada (en la musica) marca cada negra; el clic guia es
+adicional y debe poder desactivarse cuando el nino aprenda a seguir el pulso.

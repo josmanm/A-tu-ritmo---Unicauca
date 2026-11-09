@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="46 142 1508 548" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient>
+    <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+  </defs>
+  <path d="M388 551 Q504 487 600 425 Q609 418 619 428 Q692 496 771 551Z" fill="url(#mountain)"/>
+    <path d="M645 552 Q758 490 865 438 Q875 433 882 441 Q997 510 1102 552Z" fill="url(#mountain)"/>
+    <path d="M917 555 Q1031 509 1105 463 Q1114 458 1121 465 Q1192 510 1273 552Z" fill="#B8D9C5" opacity="0.56"/>
+    <path d="M566 447 Q594 428 602 425 Q609 420 619 430 L633 445 M845 453 L865 438 Q875 433 882 443 L900 454" fill="none" stroke="#E6F2DD" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+</svg>

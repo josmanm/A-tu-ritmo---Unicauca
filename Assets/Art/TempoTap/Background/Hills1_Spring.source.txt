@@ -1,0 +1,2 @@
+Derivado de Assets/Sprites/2DPlatformerCartoonPack/2DPlatformerCartoonPack/Backgrounds/Parts/Landscape1/Hills1_Day.png.
+Solo se recoloreo el paisaje a verde menta; se conservaron dimensiones, silueta, transparencia y escala de importacion del original.

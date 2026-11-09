@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="46 142 1508 548" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient>
+    <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+  </defs>
+  <path d="M46 606 C550 583 1050 583 1554 600 V692 H46Z" fill="url(#track)"/>
+    <path d="M46 605 C550 578 1050 578 1554 601" fill="none" stroke="#FFF9E7" stroke-width="8"/>
+    <path d="M46 672 Q717 646 1554 670" fill="none" stroke="#CCAF80" stroke-width="4" opacity=".7"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="144" viewBox="0 0 192 144">
+  <title>Tempo Tap - PÁJARO</title>
+  <defs><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#FFFDF5"/><stop offset="1" stop-color="#F3F7E9"/></linearGradient>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#75C8F2"/><stop offset="0.68" stop-color="#C4EAE7"/><stop offset="1" stop-color="#FFF1C8"/></linearGradient>
+  <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+  <linearGradient id="teal" x2="0" y2="1"><stop stop-color="#65D7C8"/><stop offset="1" stop-color="#24A69D"/></linearGradient>
+  <linearGradient id="coral" x2="0" y2="1"><stop stop-color="#FFBD91"/><stop offset="1" stop-color="#F47E67"/></linearGradient>
+  <linearGradient id="lilac" x2="0" y2="1"><stop stop-color="#D9C5F8"/><stop offset="1" stop-color="#9A7BDD"/></linearGradient>
+  <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient></defs>
+  <g transform="translate(96 111)"><g id="bird" stroke="#54447F" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Bird faces left with a single clear raised wing. -->
+      <path d="M36 -29 L69 -48 L58 -27 L77 -27 L51 -13 L37 -16Z" fill="#927ACA"/>
+      <ellipse cx="5" cy="-23" rx="44" ry="23" fill="url(#lilac)"/>
+      <path d="M-2 -34 Q18 -79 54 -82 L45 -62 L61 -71 Q51 -47 26 -34 L10 -25Z" fill="#927ACA"/>
+      <circle cx="-36" cy="-30" r="18" fill="#C4ACEF"/>
+      <path d="M-53 -28 L-76 -20 L-52 -13Z" fill="#F4B761" stroke="#976543"/>
+      <circle cx="-40" cy="-34" r="3.6" fill="#34405E" stroke="none"/>
+      <circle cx="-41" cy="-35" r="1" fill="#FFFFFF" stroke="none"/>
+      <path d="M-8 -7 L-11 6 L-17 9 M-11 6 L-7 10 M8 -7 L6 6 L0 9 M6 6 L11 9" fill="none" stroke="#E6A862" stroke-width="3.2"/>
+    </g></g>
+</svg>

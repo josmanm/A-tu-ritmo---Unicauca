@@ -1,0 +1,17 @@
+A TU RITMO — ESTRELLITA, DONDE ESTAS? (versión instrumental original)
+Tempo: 80 BPM, compás: 4/4, duración exacta WAV: 36.0 s, 48 pulsos / 12 compases.
+Pulso 1: tiempo 0.000s; pulsos sucesivos cada 0.750s.
+La melodía tradicional es de dominio público; esta instrumentación es original.
+
+Archivos:
+  Musica_Con_Pulso.wav: reproducir como demostración lista para escuchar.
+  Musica_Sin_Clic_Guia.wav: canción con acompañamiento rítmico natural, sin guía de madera.
+  Pulso_Guia_Solo.wav: clic de guía en pista aparte, sincronizada muestra a muestra.
+  Melodia_Editable.mid: edición y cambio de tempo con una herramienta MIDI.
+Para Unity: importar las dos pistas WAV como AudioClip (sin clic y guía), reproducir ambas
+con AudioSource.PlayScheduled usando el mismo instante DSP; activar/desactivar la guía
+en tutorial según la dificultad. La pista Con_Pulso ya integra ambas.
+Si quieres un pulso exacto para evaluar tiempos, usar AudioSettings.dspTime como reloj;
+evitar confiar en los tiempos de animación como referencia.
+Si se cambian BPM, rehacer/renderizar los WAV a la nueva velocidad y recalcular pulsos.
+Nota: no reproducir simultáneamente Con_Pulso y Pulso_Guia_Solo (se duplicaría el clic).

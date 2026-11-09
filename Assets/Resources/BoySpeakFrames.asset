@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887102a7e512b9a4cbb2e18b4217d7a5, type: 3}
+  m_Name: BoySpeakFrames
+  m_EditorClassIdentifier: Assembly-CSharp::BoySpeakFrames
+  frames:
+  - {fileID: 1417159237, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 1452947997, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 712217674, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -99102787, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 541679815, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -1909944787, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 38002508, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 305159566, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -1313205716, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -768913896, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 1871626867, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 1515028961, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -2095160211, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: 716813948, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -2005702768, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  - {fileID: -1159216268, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}

@@ -1,0 +1,43 @@
+A TU RITMO — LA CUCARACHA — KIT PARA UNITY
+
+Arreglo instrumental nuevo basado en la melodia popular tradicional mexicana.
+La melodia tiene variantes historicas con distintos compases: aqui esta adaptada a 4/4
+para mantener compatibilidad con el juego Banda Ritmica.
+
+Tempo: 80 BPM | Compas: 4/4 | Duracion: 48.000 segundos | Compases: 16 | Pulsos: 64.
+Cada pulso: 0.750 s. Primer pulso: segundo 0.000.
+Tonalidad: Do mayor. Dos repeticiones de un estribillo reconocible en arreglo simplificado.
+
+ARCHIVOS
+* La_Cucaracha_80BPM_Escuchar.mp3: vista previa con melodia, banda y clic de guia.
+* La_Cucaracha_80BPM_Musica_Con_Pulso.wav: pista completa con clic de guia.
+* La_Cucaracha_80BPM_Musica_Sin_Click_Guia.wav: melodia y percusion sin clic adicional.
+* La_Cucaracha_80BPM_Pulso_Guia_Solo.wav: ayuda auditiva de pulso, aislada.
+* La_Cucaracha_80BPM_Melodia_Sola.wav: melodia aislada.
+* La_Cucaracha_80BPM_Base_Armonia_y_Bajo.wav: armonia y bajo sin animales ni clic.
+* La_Cucaracha_80BPM_Melodia_y_Base_Sin_Animales.wav: musica base para ir incorporando mono/gato/oso.
+* La_Cucaracha_80BPM_Acompanamiento_Solo.wav: armonia, bajo, mono, gato y oso (sin melodia, sin clic).
+* La_Cucaracha_80BPM_Mono_Tambor_Solo.wav: bombo ritmico sintetizado.
+* La_Cucaracha_80BPM_Gato_Maracas_Solo.wav: maracas suaves, con subdivisiones.
+* La_Cucaracha_80BPM_Oso_Pandereta_Solo.wav: pandereta suave.
+* La_Cucaracha_80BPM_Editable.mid: tempo editable, 4/4, instrumentos y guia en pistas separadas.
+* La_Cucaracha_80BPM_BeatMap_Unity.json: 64 instantes de pulso y cambios de compas.
+
+USO RECOMENDADO EN UNITY
+1. Para una prueba inmediata: reproducir solamente Musica_Con_Pulso.wav.
+2. Para un nivel independiente: reproducir solamente Musica_Sin_Click_Guia.wav.
+3. Para tutorial con guia opcional: sincronizar Musica_Sin_Click_Guia.wav y
+   Pulso_Guia_Solo.wav con AudioSource.PlayScheduled utilizando EL MISMO dspTime.
+4. Para incorporar a los animales en capas: usar Melodia_y_Base_Sin_Animales.wav
+   + Mono_Tambor_Solo.wav + Gato_Maracas_Solo.wav + Oso_Pandereta_Solo.wav.
+   Activar cada capa de animal al terminar un compas; en Unity, iniciar las pistas
+   sincronizadas desde t=0 y variar sus volumenes cuando llegue el personaje.
+   NO reproducir Acompanamiento_Solo junto con las 3 capas de animales, ya estan incluidas.
+5. No reproducir Musica_Con_Pulso y Pulso_Guia_Solo a la vez: duplicaria el clic.
+6. Si cambias los BPM en el MIDI (p. ej. 100 BPM), vuelve a renderizar las pistas
+   de audio al nuevo tempo y recalcula beatDuration=60/BPM y el BeatMap.
+7. Si las tablets tienen latencia, calibrar audio/tacto antes de usar errores en ms.
+8. La mezcla no usa grabaciones comerciales; los instrumentos son sintetizados.
+
+NOTA DE ARREGLO: es una adaptacion didactica en 4/4; no pretende reproducir exactamente
+la notacion de una version historica particular. Es una frase de 8 compases repetida.

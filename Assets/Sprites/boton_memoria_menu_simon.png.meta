@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 2a2663e1ca142a34085b15876ef59187
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2960095149572475451
+    second: boton_memoria_menu_simon_0
+  - first:
+      213: -1400975875615666817
+    second: boton_memoria_menu_simon_1
+  - first:
+      213: -8840102344307962887
+    second: boton_memoria_menu_simon_2
+  - first:
+      213: 912459145064618998
+    second: boton_memoria_menu_simon_3
+  - first:
+      213: -5554517216519815912
+    second: boton_memoria_menu_simon_4
+  - first:
+      213: -7228485512249125471
+    second: boton_memoria_menu_simon_5
+  - first:
+      213: -1214297656736518312
+    second: boton_memoria_menu_simon_6
+  - first:
+      213: 8788132041294290504
+    second: boton_memoria_menu_simon_7
+  - first:
+      213: -8650966256557364550
+    second: boton_memoria_menu_simon_8
+  - first:
+      213: -8696046968422069779
+    second: boton_memoria_menu_simon_9
+  - first:
+      213: -8761292430875835204
+    second: boton_memoria_menu_simon_10
+  - first:
+      213: 1622987220817623280
+    second: boton_memoria_menu_simon_11
+  - first:
+      213: -3728914656281768858
+    second: boton_memoria_menu_simon_12
+  - first:
+      213: 5485072297228373128
+    second: boton_memoria_menu_simon_13
+  - first:
+      213: 518527362250263381
+    second: boton_memoria_menu_simon_14
+  - first:
+      213: 1306152206725976634
+    second: boton_memoria_menu_simon_15
+  - first:
+      213: 5043486618933749205
+    second: boton_memoria_menu_simon_16
+  - first:
+      213: -8489454006669194389
+    second: boton_memoria_menu_simon_17
+  - first:
+      213: 4906974193775353487
+    second: boton_memoria_menu_simon_18
+  - first:
+      213: 3583541493771128805
+    second: boton_memoria_menu_simon_19
+  - first:
+      213: 2110121792637452158
+    second: boton_memoria_menu_simon_20
+  - first:
+      213: -5597713070921441618
+    second: boton_memoria_menu_simon_21
+  - first:
+      213: -288083463816593863
+    second: boton_memoria_menu_simon_22
+  - first:
+      213: -7389416613664975730
+    second: boton_memoria_menu_simon_23
+  - first:
+      213: -2659136748264738028
+    second: boton_memoria_menu_simon_24
+  - first:
+      213: 906537423777642175
+    second: boton_memoria_menu_simon_25
+  - first:
+      213: -445684028227209958
+    second: boton_memoria_menu_simon_26
+  - first:
+      213: 2048480709481403554
+    second: boton_memoria_menu_simon_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 40, y: 296, z: 45, w: 316}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 56
+        width: 1395
+        height: 846
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5306c0521abe6d0800000000000000
+      internalID: -2960095149572475451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_1
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 815
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d49032ddbbe8ce0800000000000000
+      internalID: -1400975875615666817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 816
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb0d6531c5a15580800000000000000
+      internalID: -8840102344307962887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 817
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb12ad02c4b9ac00800000000000000
+      internalID: 912459145064618998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_4
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 797
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7b8a45046ae2b0800000000000000
+      internalID: -5554517216519815912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_5
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 816
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5555a89b24fab90800000000000000
+      internalID: -7228485512249125471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_6
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 815
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f61aef6b2f52fe0800000000000000
+      internalID: -1214297656736518312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_7
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 817
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e1390b787b5f970800000000000000
+      internalID: 8788132041294290504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_8
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 812
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abae102460891f780800000000000000
+      internalID: -8650966256557364550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_9
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 815
+        width: 29
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de907191b5f615780800000000000000
+      internalID: -8696046968422069779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 810
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4c35414f2a96680800000000000000
+      internalID: -8761292430875835204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_11
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 816
+        width: 47
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f835d34742068610800000000000000
+      internalID: 1622987220817623280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_12
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 806
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cc39270eb304cc0800000000000000
+      internalID: -3728914656281768858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 260
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c02a37134ee1c40800000000000000
+      internalID: 5485072297228373128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 260
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b4f3183ed223700800000000000000
+      internalID: 518527362250263381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 263
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a329e700382602210800000000000000
+      internalID: 1306152206725976634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_16
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 261
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d56bfebb501ef540800000000000000
+      internalID: 5043486618933749205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 250
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b477b5f866f2a80800000000000000
+      internalID: -8489454006669194389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_18
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 250
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e1dfde703191440800000000000000
+      internalID: 4906974193775353487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_19
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 248
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efc91e800c4bb130800000000000000
+      internalID: 3583541493771128805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 232
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f37fa2798a84d10800000000000000
+      internalID: 2110121792637452158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 197
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae9a25be9de052b0800000000000000
+      internalID: -5597713070921441618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_22
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 210
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e3c81bd95800cf0800000000000000
+      internalID: -288083463816593863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_23
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 193
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84112d9db4837990800000000000000
+      internalID: -7389416613664975730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_24
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 194
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4133e765739d81bd0800000000000000
+      internalID: -2659136748264738028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_25
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 169
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb63ddfdbfaa49c00800000000000000
+      internalID: 906537423777642175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_26
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 169
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15b377dcbc90d9f0800000000000000
+      internalID: -445684028227209958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boton_memoria_menu_simon_27
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 167
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a411e91a5aad6c10800000000000000
+      internalID: 2048480709481403554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boton_memoria_menu_simon_0: -2960095149572475451
+      boton_memoria_menu_simon_1: -1400975875615666817
+      boton_memoria_menu_simon_10: -8761292430875835204
+      boton_memoria_menu_simon_11: 1622987220817623280
+      boton_memoria_menu_simon_12: -3728914656281768858
+      boton_memoria_menu_simon_13: 5485072297228373128
+      boton_memoria_menu_simon_14: 518527362250263381
+      boton_memoria_menu_simon_15: 1306152206725976634
+      boton_memoria_menu_simon_16: 5043486618933749205
+      boton_memoria_menu_simon_17: -8489454006669194389
+      boton_memoria_menu_simon_18: 4906974193775353487
+      boton_memoria_menu_simon_19: 3583541493771128805
+      boton_memoria_menu_simon_2: -8840102344307962887
+      boton_memoria_menu_simon_20: 2110121792637452158
+      boton_memoria_menu_simon_21: -5597713070921441618
+      boton_memoria_menu_simon_22: -288083463816593863
+      boton_memoria_menu_simon_23: -7389416613664975730
+      boton_memoria_menu_simon_24: -2659136748264738028
+      boton_memoria_menu_simon_25: 906537423777642175
+      boton_memoria_menu_simon_26: -445684028227209958
+      boton_memoria_menu_simon_27: 2048480709481403554
+      boton_memoria_menu_simon_3: 912459145064618998
+      boton_memoria_menu_simon_4: -5554517216519815912
+      boton_memoria_menu_simon_5: -7228485512249125471
+      boton_memoria_menu_simon_6: -1214297656736518312
+      boton_memoria_menu_simon_7: 8788132041294290504
+      boton_memoria_menu_simon_8: -8650966256557364550
+      boton_memoria_menu_simon_9: -8696046968422069779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

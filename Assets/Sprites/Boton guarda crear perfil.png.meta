@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 8474dc6ec008eb0418a6147e66d8b948
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2049038110516309802
+    second: Boton guarda crear perfil_0
+  - first:
+      213: -7193532131287343752
+    second: Boton guarda crear perfil_1
+  - first:
+      213: 6510312460932043328
+    second: Boton guarda crear perfil_2
+  - first:
+      213: -8135191691797465409
+    second: Boton guarda crear perfil_3
+  - first:
+      213: -172777119826669268
+    second: Boton guarda crear perfil_4
+  - first:
+      213: -4603639369979813195
+    second: Boton guarda crear perfil_5
+  - first:
+      213: -8092401609844516412
+    second: Boton guarda crear perfil_6
+  - first:
+      213: -4222485279823492087
+    second: Boton guarda crear perfil_7
+  - first:
+      213: -1726869494504996524
+    second: Boton guarda crear perfil_8
+  - first:
+      213: -7732066847805178509
+    second: Boton guarda crear perfil_9
+  - first:
+      213: -602612177869097391
+    second: Boton guarda crear perfil_10
+  - first:
+      213: 6303093013549501392
+    second: Boton guarda crear perfil_11
+  - first:
+      213: 3195011993848285057
+    second: Boton guarda crear perfil_12
+  - first:
+      213: -3153476563634249395
+    second: Boton guarda crear perfil_13
+  - first:
+      213: -2640520404154215104
+    second: Boton guarda crear perfil_14
+  - first:
+      213: 4726242687384957061
+    second: Boton guarda crear perfil_15
+  - first:
+      213: -6226064637594474194
+    second: Boton guarda crear perfil_16
+  - first:
+      213: -1781887875627854313
+    second: Boton guarda crear perfil_17
+  - first:
+      213: -8951847888697029493
+    second: Boton guarda crear perfil_18
+  - first:
+      213: -6631227191156170931
+    second: Boton guarda crear perfil_19
+  - first:
+      213: 1431242661164745719
+    second: Boton guarda crear perfil_20
+  - first:
+      213: 507203044780740242
+    second: Boton guarda crear perfil_21
+  - first:
+      213: 6685486816505098112
+    second: Boton guarda crear perfil_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fef842e45af6c10800000000000000
+      internalID: 2049038110516309802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_1
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 628
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d524ab3a07b2c90800000000000000
+      internalID: -7193532131287343752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_2
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 596
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04257aaa0b6495a50800000000000000
+      internalID: 6510312460932043328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_3
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 593
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6f3b6224ef91f80800000000000000
+      internalID: -8135191691797465409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_4
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 602
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c219a6bff1c2a9df0800000000000000
+      internalID: -172777119826669268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 578
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2a95652669c10c0800000000000000
+      internalID: -4603639369979813195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c91b697c9302bf80800000000000000
+      internalID: -8092401609844516412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_7
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c0eca7208b665c0800000000000000
+      internalID: -4222485279823492087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_8
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 108
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4514296185de808e0800000000000000
+      internalID: -1726869494504996524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_9
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 85
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d7ffc0b2e22b490800000000000000
+      internalID: -7732066847805178509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_10
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 99
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b9c0ca6713a7f0800000000000000
+      internalID: -602612177869097391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_11
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db4dda53b5197750800000000000000
+      internalID: 6303093013549501392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_12
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 98
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18780720b76f65c20800000000000000
+      internalID: 3195011993848285057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_13
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 101
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41af01f5c99c34d0800000000000000
+      internalID: -3153476563634249395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0459738beacfa5bd0800000000000000
+      internalID: -2640520404154215104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5803ed7feacf69140800000000000000
+      internalID: 4726242687384957061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_16
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e296f8ff2339899a0800000000000000
+      internalID: -6226064637594474194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_17
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71650affa667547e0800000000000000
+      internalID: -1781887875627854313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_18
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 81
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c02ee26c5a4c380800000000000000
+      internalID: -8951847888697029493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_19
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 79
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f993ed00629f3a0800000000000000
+      internalID: -6631227191156170931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_20
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 85
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f30c160e9bccd310800000000000000
+      internalID: 1431242661164745719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_21
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 87
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e07216b72f90700800000000000000
+      internalID: 507203044780740242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boton guarda crear perfil_22
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 79
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fe750a6de97cc50800000000000000
+      internalID: 6685486816505098112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boton guarda crear perfil_0: 2049038110516309802
+      Boton guarda crear perfil_1: -7193532131287343752
+      Boton guarda crear perfil_10: -602612177869097391
+      Boton guarda crear perfil_11: 6303093013549501392
+      Boton guarda crear perfil_12: 3195011993848285057
+      Boton guarda crear perfil_13: -3153476563634249395
+      Boton guarda crear perfil_14: -2640520404154215104
+      Boton guarda crear perfil_15: 4726242687384957061
+      Boton guarda crear perfil_16: -6226064637594474194
+      Boton guarda crear perfil_17: -1781887875627854313
+      Boton guarda crear perfil_18: -8951847888697029493
+      Boton guarda crear perfil_19: -6631227191156170931
+      Boton guarda crear perfil_2: 6510312460932043328
+      Boton guarda crear perfil_20: 1431242661164745719
+      Boton guarda crear perfil_21: 507203044780740242
+      Boton guarda crear perfil_22: 6685486816505098112
+      Boton guarda crear perfil_3: -8135191691797465409
+      Boton guarda crear perfil_4: -172777119826669268
+      Boton guarda crear perfil_5: -4603639369979813195
+      Boton guarda crear perfil_6: -8092401609844516412
+      Boton guarda crear perfil_7: -4222485279823492087
+      Boton guarda crear perfil_8: -1726869494504996524
+      Boton guarda crear perfil_9: -7732066847805178509
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

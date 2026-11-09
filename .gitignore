@@ -1,0 +1,93 @@
+# Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+AtuRitmo/
+AtuRitmo.zip
+
+# Android build outputs (not project assets)
+*.apk
+*.aab
+*.apks
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+/.utmp/
+
+# Windows standalone player and its companion files
+/Windows/
+/Windows.rar
+/Ejecutable/
+/*.exe
+/*.dll
+/*_Data/
+/*_BurstDebugInformation_DoNotShip/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Generated project files
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+*.mdb
+*.pdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+sysinfo.txt
+
+# Local recovery / editor leftovers
+Assets/_Recovery/
+ProjectSettings/Packages/
+ProjectSettings/McpUnitySettings.json
+
+# Local package overrides not used as canonical source in this repo
+Packages/com.gamelovers.mcp-unity/
+Packages/com.ivanmurzak.unity.mcp/
+
+# Local AI/tooling workspace files
+.agents/
+.opencode/
+/opencode.json
+/AI_RULES.md
+skills-lock.json
+.tools
+documentation/
+
+# Local reports, generation history and helper scripts (not game inputs)
+/Docs/
+/Tools/
+/ARCHITECTURE.md
+/GeneratedAssets/
+/Assets/AI Toolkit/Temp/
+/Assets/AI Toolkit/Temp.meta
+/Assets/_Recovery.meta
+
+# Unused art samples and design-only references; retain locally for review
+/Assets/Sprites/CrispJuice_Free_Sampler/
+/Assets/Sprites/CrispJuice_Free_Sampler.meta
+/Assets/Sprites/freegui/
+/Assets/Sprites/freegui.meta
+/Assets/Sprites/kenney_ui-pack/
+/Assets/Sprites/kenney_ui-pack.meta
+/Assets/Art/GenerationRequests/
+/Assets/Art/GenerationRequests.meta
+/Assets/Art/References/
+/Assets/Art/References.meta

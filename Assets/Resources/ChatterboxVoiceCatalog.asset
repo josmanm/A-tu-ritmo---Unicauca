@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d83a0e524abf574ea5fe6589962aa88, type: 3}
+  m_Name: ChatterboxVoiceCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::ChatterboxVoiceCatalog
+  entries:
+  - id: banda_acierto
+    clip: {fileID: 8300000, guid: a44470ded5938e3429ab72de44d8129a, type: 3}
+  - id: banda_ahora_tu
+    clip: {fileID: 8300000, guid: 6b9bbb3f0969de1478e6ddfa9ad71350, type: 3}
+  - id: banda_cuenta_cuatro
+    clip: {fileID: 8300000, guid: ccf25bad789cb964087efe975ff803b4, type: 3}
+  - id: banda_empieza_cancion
+    clip: {fileID: 8300000, guid: eccd28b02839b8a4b9ba156e015a47b7, type: 3}
+  - id: banda_error_amable
+    clip: {fileID: 8300000, guid: f1a55dc8bcf45754baf0e0e20fa7dce4, type: 3}
+  - id: banda_escucha_animales
+    clip: {fileID: 8300000, guid: b39579271b59fb04bb7ed6a8ec3fa2b7, type: 3}
+  - id: banda_fin_exito
+    clip: {fileID: 8300000, guid: 80ef9f91ea7e3f74f929bec33c7978f7, type: 3}
+  - id: banda_final_bravo
+    clip: {fileID: 8300000, guid: 2be6bd582ce558c4ea0308de7dda766e, type: 3}
+  - id: banda_llega_gato
+    clip: {fileID: 8300000, guid: 0d6e4ad0a4f0a384786d62de27debe9e, type: 3}
+  - id: banda_llega_oso
+    clip: {fileID: 8300000, guid: 5476f39968aed134694ba7b847aa8004, type: 3}
+  - id: banda_logro_asi_se_hace
+    clip: {fileID: 8300000, guid: d863766e33dd51141a6859fa84e1d54c, type: 3}
+  - id: banda_logro_bien_tocado
+    clip: {fileID: 8300000, guid: f29d82627ff0b8e41897890ea64806b8, type: 3}
+  - id: banda_logro_buen_ritmo
+    clip: {fileID: 8300000, guid: 3b806a647e684ae419ce357143bf8f1c, type: 3}
+  - id: banda_logro_excelente
+    clip: {fileID: 8300000, guid: fc2f39ba65fb2224d9cf69f56a474395, type: 3}
+  - id: banda_logro_genial
+    clip: {fileID: 8300000, guid: 0393f9242cd5a9a4fb3d88695f1991dc, type: 3}
+  - id: banda_logro_muy_bien
+    clip: {fileID: 8300000, guid: f678e8edeb2ed714e97458ea1f017841, type: 3}
+  - id: banda_logro_perfecto
+    clip: {fileID: 8300000, guid: 6002c0cbe8c0d8442a2a1420418cd49f, type: 3}
+  - id: banda_logro_seguir_pulso
+    clip: {fileID: 8300000, guid: 84140b8515ad9a74cb1648243776b8ac, type: 3}
+  - id: banda_nivel_1_animo
+    clip: {fileID: 8300000, guid: c204809f9136e5d49ad34fc2f4d742b4, type: 3}
+  - id: banda_nivel_1_intro
+    clip: {fileID: 8300000, guid: 5ea26f166e9ca7541a5b2f13fbfd8ce8, type: 3}
+  - id: banda_nivel_1_logro
+    clip: {fileID: 8300000, guid: 01bfa1ca13e2cd842aedfc7d27f6c555, type: 3}
+  - id: banda_nivel_1_progreso
+    clip: {fileID: 8300000, guid: db83b09fd98c9b641ac341f1ad57ef21, type: 3}
+  - id: banda_nivel_2_con_gato
+    clip: {fileID: 8300000, guid: 571c8336473f8fb40a3062d317bf0673, type: 3}
+  - id: banda_nivel_2_intro
+    clip: {fileID: 8300000, guid: 47e4adfbaf6155e4086d17bfe53ad81e, type: 3}
+  - id: banda_nivel_2_logro
+    clip: {fileID: 8300000, guid: 91b3115282e60d441826e86c857c3f68, type: 3}
+  - id: banda_nivel_2_progreso
+    clip: {fileID: 8300000, guid: 569ea539659d5fe4ca5a76f34b797180, type: 3}
+  - id: banda_nivel_3_felicitacion
+    clip: {fileID: 8300000, guid: 39f74047c3219f648afd16ca596d8311, type: 3}
+  - id: banda_nivel_3_intro
+    clip: {fileID: 8300000, guid: b9820d2f634275447af504e96bc02db0, type: 3}
+  - id: banda_nivel_3_logro
+    clip: {fileID: 8300000, guid: 52b796a60f43d5e4dba7ec9e8193267b, type: 3}
+  - id: banda_nivel_3_sin_luz
+    clip: {fileID: 8300000, guid: d11c865034ee8664cbe46177380f290f, type: 3}
+  - id: banda_observa_mono
+    clip: {fileID: 8300000, guid: e1e8557fb29074345bb55892dae88f73, type: 3}
+  - id: banda_otra_vez
+    clip: {fileID: 8300000, guid: 00eddca44a55134479d4e5f8cd1bcac9, type: 3}
+  - id: banda_que_es_pulso
+    clip: {fileID: 8300000, guid: 168fd56e4318560409939ad43c5ed3ce, type: 3}
+  - id: banda_reintento
+    clip: {fileID: 8300000, guid: e86d0f8863ef1014395cda7485ffbd1e, type: 3}
+  - id: banda_reto_musica_baja
+    clip: {fileID: 8300000, guid: a8d35846ed6eed043b96f05feabc2321, type: 3}
+  - id: banda_reto_sin_luz
+    clip: {fileID: 8300000, guid: e13ac03935b9d7b469d1f87a530025a3, type: 3}
+  - id: banda_reto_sin_musica
+    clip: {fileID: 8300000, guid: 5e206c64bdcd63c4c92e8d2fe99bc0b4, type: 3}
+  - id: banda_seguimos_juntos
+    clip: {fileID: 8300000, guid: ecc80764ce496ea46a801b843d4f934a, type: 3}
+  - id: banda_tutorial
+    clip: {fileID: 8300000, guid: fd0b7227575a85746846102e9d63c8f9, type: 3}
+  - id: banda_vuelve_la_banda
+    clip: {fileID: 8300000, guid: 9c7903bcd648179469417b5bc1bf8ad6, type: 3}
+  - id: basico_blanca
+    clip: {fileID: 8300000, guid: 29ef680271317764bbd0810cd762664e, type: 3}
+  - id: basico_corchea
+    clip: {fileID: 8300000, guid: 1e4439c1ab1e7e04e890dc0ea6122bfd, type: 3}
+  - id: basico_descubre_tambor
+    clip: {fileID: 8300000, guid: b92f42d2fab6d644988468c3216bfb25, type: 3}
+  - id: basico_espera_llenado
+    clip: {fileID: 8300000, guid: d6cc87e46d5255f44bc8b85109ed3e5f, type: 3}
+  - id: basico_fin
+    clip: {fileID: 8300000, guid: 409ea1e890be89f4c8bea5c5b84d2fea, type: 3}
+  - id: basico_negra
+    clip: {fileID: 8300000, guid: 0e86648f40485d5448a1ed2bf50bcadb, type: 3}
+  - id: basico_redonda
+    clip: {fileID: 8300000, guid: 97246667c50a7874d9555ef565fb3f57, type: 3}
+  - id: basico_silencio
+    clip: {fileID: 8300000, guid: 5d490370271a9e74e80d1449f1b8c2af, type: 3}
+  - id: basico_tutorial_intro
+    clip: {fileID: 8300000, guid: 95b8a4bb2a1ba2b4ca12a9546788ae20, type: 3}
+  - id: menu_ajustes
+    clip: {fileID: 8300000, guid: 7dbdc851ad1af774bbbcfe2336ff5976, type: 3}
+  - id: menu_elegir_juego
+    clip: {fileID: 8300000, guid: 00f4c72b163d28047ba2eaa480c215d8, type: 3}
+  - id: menu_ritmo_basico
+    clip: {fileID: 8300000, guid: 10064220185b6cf4a99f2746fa3baa58, type: 3}
+  - id: menu_salir
+    clip: {fileID: 8300000, guid: a311c6d1d92b5b548bc7f9a4cfb6ca29, type: 3}
+  - id: menu_simon
+    clip: {fileID: 8300000, guid: c3465dbe667410649bb17da95706997e, type: 3}
+  - id: menu_tempo_tap
+    clip: {fileID: 8300000, guid: 8f0db69e7e2af534f8ce251f71adb405, type: 3}
+  - id: menu_volver
+    clip: {fileID: 8300000, guid: bdf36eb1d9c7fd943a84fd377529aef5, type: 3}
+  - id: perfil_bienvenida
+    clip: {fileID: 8300000, guid: 7ef5613a718c2b344bc3fe086e0264e8, type: 3}
+  - id: perfil_crear
+    clip: {fileID: 8300000, guid: 55e05a683020eee44bd00eea36bb07ed, type: 3}
+  - id: perfil_listo
+    clip: {fileID: 8300000, guid: 0ba458abd5f8e8e47bfa1bb7929061be, type: 3}
+  - id: perfil_sin_conexion
+    clip: {fileID: 8300000, guid: 8376f1e03e99da148b7a54f8e9d9efca, type: 3}
+  - id: simon_antes_del_pulso
+    clip: {fileID: 8300000, guid: e1f093dddeeccec4eb035b6d770553d1, type: 3}
+  - id: simon_color_diferente
+    clip: {fileID: 8300000, guid: 08ee3a2e913a8614d89d0a5502c47228, type: 3}
+  - id: simon_despues_del_pulso
+    clip: {fileID: 8300000, guid: 52e2f16470710dd42a08a8cda84f78be, type: 3}
+  - id: simon_fin
+    clip: {fileID: 8300000, guid: 71a80bc5185110d488e9aabb4a067efa, type: 3}
+  - id: simon_memoria_intento
+    clip: {fileID: 8300000, guid: ab0c7784a75cffa4abbd627b851aa45d, type: 3}
+  - id: simon_memoria_intro
+    clip: {fileID: 8300000, guid: 8c809887e769eb74086e5e76ee812762, type: 3}
+  - id: simon_memoria_practica
+    clip: {fileID: 8300000, guid: 2f7505f44c250ea4f82ebb726e1048e3, type: 3}
+  - id: simon_memoria_repetir
+    clip: {fileID: 8300000, guid: 84d73d252bb79df4a9399a61476d1f85, type: 3}
+  - id: simon_nueva_ronda
+    clip: {fileID: 8300000, guid: dc61a22347fa29d4f9c4451f905d23b7, type: 3}
+  - id: simon_ritmo_camino
+    clip: {fileID: 8300000, guid: 52859fb45e4cc5c46b94e7037c2b2ca1, type: 3}
+  - id: simon_ritmo_inicio
+    clip: {fileID: 8300000, guid: ac450d4510fbaa944a0c88b599a03c35, type: 3}
+  - id: simon_ritmo_primera_nota
+    clip: {fileID: 8300000, guid: 190ee07d0a7d97d42b908f03c5685f72, type: 3}
+  - id: simon_ritmo_silencio
+    clip: {fileID: 8300000, guid: bbb259c983923404285576199ce6abf7, type: 3}
+  - id: simon_tutorial_memoria
+    clip: {fileID: 8300000, guid: 61bc6f4f86e00f144b2a90aa6f442dee, type: 3}
+  - id: simon_tutorial_ritmo
+    clip: {fileID: 8300000, guid: 42d99a0a8a1831242923a292e1f933f4, type: 3}
+  - id: tempo_antes
+    clip: {fileID: 8300000, guid: b3a7944ddf5f6f94c96aab80b9151972, type: 3}
+  - id: tempo_despues
+    clip: {fileID: 8300000, guid: dcffd948e6d8b4643b9e44b4cc59d4ef, type: 3}
+  - id: tempo_escucha_dos_pulsos
+    clip: {fileID: 8300000, guid: 813fff8505656ce4b86e6bb5f0183afb, type: 3}
+  - id: tempo_fin
+    clip: {fileID: 8300000, guid: 62981f84b5b012845bf605a5028fe1ee, type: 3}
+  - id: tempo_intro
+    clip: {fileID: 8300000, guid: 4968de0ed5e7f744b85482e89b38840f, type: 3}
+  - id: tempo_tropiezo
+    clip: {fileID: 8300000, guid: fc284994663b45b40acb19ac252f0053, type: 3}
+  - id: tempo_turno
+    clip: {fileID: 8300000, guid: 55931d72db8ecc147ba1f95576654cee, type: 3}
+  - id: tempo_tutorial
+    clip: {fileID: 8300000, guid: 7417a14f73446da4ea8c56ddfd13c7fb, type: 3}
+  - id: voz_espera
+    clip: {fileID: 8300000, guid: 0b31c0d6f92808e4099a2fa1047b7eaa, type: 3}
+  - id: voz_intenta_otra_vez
+    clip: {fileID: 8300000, guid: 39a35d7de2d9767478ef527cc815d49e, type: 3}
+  - id: voz_muy_bien
+    clip: {fileID: 8300000, guid: bdc655b6f437a3246bf4cd6e9f85cd4c, type: 3}
+  - id: voz_observa
+    clip: {fileID: 8300000, guid: 04e31c1ffa3a63549996a652e2050642, type: 3}
+  - id: voz_tu_turno
+    clip: {fileID: 8300000, guid: 40210db5f5e1a3b4b8409d1c89353fe1, type: 3}

@@ -1,0 +1,42 @@
+KIT UI A TU RITMO — PARA UNITY 2D
+=================================
+Assets creados en PNG RGBA transparentes y SVG editables; sin tipografías incorporadas.
+
+BOTONES
+- 7 colores: verde, amarillo, rojo, azul, turquesa, morado, gris.
+- 2 estados: normal y presionado.
+- PNG 640 x 180. No tienen texto ni icono.
+- Para textos, agrega un hijo TextMeshProUGUI dentro del objeto Button.
+- Para iconos, agrega un hijo Image con alguno de los iconos de la carpeta Iconos.
+
+COLOR DINAMICO
+- Modular/btn_tinte_blanco.png: sprite blanco, se tiñe usando Image.color.
+- Modular/btn_bordes_brillos.png: contorno y destellos, siempre blanco sin tinte.
+- Los dos objetos Image deben tener la MISMA medida y misma posición;
+  el overlay va por encima del tintado.
+- Para un color con degradados y relieve más ricos, usa los PNG de color predefinido.
+
+UNITY IMPORT
+1) Selecciona PNG: Texture Type: Sprite (2D and UI); Sprite Mode: Single; Alpha is Transparency: On.
+2) Filter Mode: Bilinear. Compression: None (si ves artefactos).
+3) Para redimensionar botones: en Sprite Editor selecciona Border aproximado
+   Left 90 / Right 90 / Top 74 / Bottom 74. Luego Image Type: Sliced.
+   Ajusta estos bordes visualmente según las dimensiones finales.
+4) Para el panel crema vacío, usa Image Type: Simple primero; evita deformar
+   el encabezado. La barra superior es un PNG separado para poder cambiar título.
+5) Texto sugerido: Fredoka Bold o Baloo 2 ExtraBold (no incluidas en el ZIP).
+6) Usa TextMeshPro, con borde oscuro y espacios adecuados.
+
+PANEL DE PAUSA
+- Paneles/panel_pausa_vacio.png: panel con cabecera azul, sin texto.
+- Paneles/panel_crema_vacio.png + panel_encabezado_azul.png: opción modular.
+- Agrega el título EN PAUSA como TextMeshProUGUI.
+- Agrega CONTINUAR, REINICIAR, SALIR como botones independientes.
+- Icono cerrar: Iconos/icono_cerrar.png.
+
+EXTRAS
+- Paneles/tarjeta_perfil_vacia.png: avatar y nombre agregados en Unity.
+- Modular/boton_cuadrado_azul.png: botón pequeño para iconos de navegación.
+- SVG editables en carpeta SVG.
+
+Al adaptar los tamaños en Canvas, respeta una zona táctil amplia para tablets.

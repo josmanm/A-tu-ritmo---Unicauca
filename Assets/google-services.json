@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640826533956",
+    "project_id": "aturitmo-uni",
+    "storage_bucket": "aturitmo-uni.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640826533956:android:ce9c8c536a548dcf043411",
+        "android_client_info": {
+          "package_name": "com.unicauca.aturitmo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2mQkERW0OrF3cACkooeHzk2jD7C-f4Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

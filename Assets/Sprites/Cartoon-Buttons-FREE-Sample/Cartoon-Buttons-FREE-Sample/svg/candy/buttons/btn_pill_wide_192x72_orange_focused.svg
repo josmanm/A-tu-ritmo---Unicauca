@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="72" viewBox="0 0 192 72">
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V36 A28 28 0 0 1 156 64 H36 A28 28 0 0 1 8 36 V32 A24 24 0 0 1 32 8 Z" fill="#4B2A57" stroke="#4B2A57" stroke-width="16" stroke-linejoin="round"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V36 A28 28 0 0 1 156 64 H36 A28 28 0 0 1 8 36 V32 A24 24 0 0 1 32 8 Z" fill="#FFC400" stroke="#FFC400" stroke-width="12" stroke-linejoin="round"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V32 A24 24 0 0 1 160 56 H32 A24 24 0 0 1 8 32 V32 A24 24 0 0 1 32 8 Z" fill="#4B2A57" stroke="#4B2A57" stroke-width="16" stroke-linejoin="round"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V32 A24 24 0 0 1 160 56 H32 A24 24 0 0 1 8 32 V32 A24 24 0 0 1 32 8 Z" fill="#FFC400" stroke="#FFC400" stroke-width="12" stroke-linejoin="round"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V36 A28 28 0 0 1 156 64 H36 A28 28 0 0 1 8 36 V32 A24 24 0 0 1 32 8 Z" fill="#4B2A57" stroke="#4B2A57" stroke-width="8" stroke-linejoin="round"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V32 A24 24 0 0 1 160 56 H32 A24 24 0 0 1 8 32 V32 A24 24 0 0 1 32 8 Z" fill="#4B2A57" stroke="#4B2A57" stroke-width="8" stroke-linejoin="round"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V36 A28 28 0 0 1 156 64 H36 A28 28 0 0 1 8 36 V32 A24 24 0 0 1 32 8 Z" fill="#B36B3F"/>
+<path d="M32 8 H160 A24 24 0 0 1 184 32 V32 A24 24 0 0 1 160 56 H32 A24 24 0 0 1 8 32 V32 A24 24 0 0 1 32 8 Z" fill="#DB8436"/>
+<path d="M29 8 H163 A21 21 0 0 1 184 29 V29 A21 21 0 0 1 163 50 H29 A21 21 0 0 1 8 29 V29 A21 21 0 0 1 29 8 Z" fill="#FF9A2E"/>
+<path d="M32 12 H160 A4 4 0 0 1 164 16 V16 A4 4 0 0 1 160 20 H32 A4 4 0 0 1 28 16 V16 A4 4 0 0 1 32 12 Z" fill="#FFFFFF" fill-opacity="0.5"/>
+</svg>

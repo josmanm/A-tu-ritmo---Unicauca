@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180"><defs>
+ <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e6b6ff"/><stop offset="0.38" stop-color="#b16af2"/><stop offset="1" stop-color="#7e3ab7"/></linearGradient>
+ <linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b16af2"/><stop offset="1" stop-color="#522575"/></linearGradient>
+ </defs>
+ <!-- base bottom extrusion -->
+ <rect x="13" y="32" rx="69" ry="69" width="614" height="137" fill="#522575" stroke="#30143b" stroke-width="8"/>
+ <!-- body face -->
+ <rect x="13" y="18" rx="69" ry="69" width="614" height="136" fill="url(#a)" stroke="#30143b" stroke-width="8"/>
+ <path d="M76 43 Q156 30 255 36 L533 36" stroke="#fff" opacity=".72" stroke-linecap="round" stroke-width="13" fill="none"/>
+ <ellipse cx="63" cy="57" rx="22" ry="8" transform="rotate(-31 63 57)" fill="#fff" opacity=".78"/>
+ <ellipse cx="92" cy="43" rx="9" ry="5" fill="#fff" opacity=".64"/>
+ <path d="M54 122 Q320 163 585 120" stroke="#522575" opacity=".47" stroke-width="8" fill="none" stroke-linecap="round"/>
+ </svg>

@@ -1,0 +1,88 @@
+{
+  "project_identity": {
+    "name": "A tu Ritmo",
+    "purpose": "Videojuego educativo infantil para aprender ritmo, escucha y figuras musicales",
+    "audience": "Ninos y ninas, incluyendo jugadores con sindrome de Down",
+    "approved_master_view": "Assets/Art/GenerationRequests/simon_master_hybrid/output/simon_master_hybrid_v3.png"
+  },
+  "visual_language": {
+    "concept": "Interfaz musical calmada, tactil y guiada",
+    "detail_level": "moderate",
+    "forms": "rounded organic shapes with clear separation",
+    "borders": "soft cream outer borders with consistent dark inner separation",
+    "shadows": "short, soft, low-contrast shadows",
+    "lighting": "gentle top-left volume, no harsh glare",
+    "background_rule": "simple low-contrast background with minimal decoration"
+  },
+  "palette": {
+    "background_navy": "#082657",
+    "surface_cream": "#FFF0D0",
+    "turquoise": "#27C3C7",
+    "sun_yellow": "#FFC21A",
+    "coral": "#F2665C",
+    "mint_green": "#8CD32A",
+    "violet": "#8061D8",
+    "text_primary": "#FFFFFF",
+    "text_on_light": "#18304F",
+    "success": "#65C84A",
+    "warning": "#F4B83F",
+    "error": "#D94B4B"
+  },
+  "typography": {
+    "system": "TextMesh Pro",
+    "font_asset_current": "LiberationSans SDF",
+    "style": "bold, rounded-feeling, high contrast, short labels",
+    "minimum_body_size_reference": 28,
+    "minimum_interactive_label_size_reference": 32,
+    "allow_editable_text": true,
+    "do_not_bake_text_into_sprites": true
+  },
+  "spacing": {
+    "reference_resolution": "1280x800",
+    "safe_margin_px": 32,
+    "hud_to_board_gap_px": 24,
+    "board_to_actions_gap_px": 28,
+    "minimum_touch_target_px": 88,
+    "preferred_touch_target_px": 110
+  },
+  "components": {
+    "primary_button": "wide rounded turquoise surface with editable label or Unity icon",
+    "secondary_button": "compact rounded violet surface",
+    "hud": "single cream rounded bar",
+    "life_indicator": "three functional heart icons only in the life bar",
+    "timer": "familiar analog clock plus progress bar, never hourglass",
+    "compass_guide": "small high-contrast circular beat markers",
+    "pulse_rings": "Unity-generated subtle concentric rings around active board",
+    "feedback": "temporary text/icon overlay, no permanent empty panel",
+    "simon_labels": "editable D, G, E and C labels inside interactive zones"
+  },
+  "interactive_states": {
+    "normal": "base color and soft border",
+    "highlighted": "increased luminosity and subtle outline",
+    "pressed": "small scale reduction and darker surface",
+    "disabled": "reduced saturation and opacity without losing silhouette",
+    "success": "green accent plus scale/pulse",
+    "error": "coral/red accent plus short shake, never aggressive flash"
+  },
+  "accessibility": {
+    "high_contrast_text": true,
+    "do_not_use_color_as_only_signal": true,
+    "limit_simultaneous_stimuli": true,
+    "keep_background_low_contrast": true,
+    "keep_labels_editable": true,
+    "avoid_excessive_flashing": true,
+    "preserve_large_touch_targets": true,
+    "use_familiar_analog_clock": true
+  },
+  "approved_references": [
+    "Assets/Art/GenerationRequests/simon_master_hybrid/output/simon_master_hybrid_v3.png"
+  ],
+  "restrictions": [
+    "Do not use full-screen mockups as in-game images",
+    "Do not replace functional controls with static artwork",
+    "Do not include decorative music notes or characters in the Simon background",
+    "Do not add permanent panels between the board and action buttons",
+    "Do not overwrite original assets without backup and approval",
+    "Do not integrate unapproved generated assets"
+  ]
+}

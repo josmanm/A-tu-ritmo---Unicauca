@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: d0cbb423cd29a5749b892154392f6c67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4744614658568364470
+    second: Interfaz colorida de Crear perfil_0
+  - first:
+      213: 1093416703868163430
+    second: Interfaz colorida de Crear perfil_1
+  - first:
+      213: 7830152835464328300
+    second: Interfaz colorida de Crear perfil_2
+  - first:
+      213: 6012644093085341751
+    second: Interfaz colorida de Crear perfil_3
+  - first:
+      213: -1093235983171869633
+    second: Interfaz colorida de Crear perfil_4
+  - first:
+      213: -1713463869576729165
+    second: Interfaz colorida de Crear perfil_5
+  - first:
+      213: 9054645579291791215
+    second: Interfaz colorida de Crear perfil_6
+  - first:
+      213: 3076738642650540650
+    second: Interfaz colorida de Crear perfil_7
+  - first:
+      213: -2032829348662381394
+    second: Interfaz colorida de Crear perfil_8
+  - first:
+      213: 7973280933445229474
+    second: Interfaz colorida de Crear perfil_9
+  - first:
+      213: 2747015187941728223
+    second: Interfaz colorida de Crear perfil_10
+  - first:
+      213: -6624652322609642871
+    second: Interfaz colorida de Crear perfil_11
+  - first:
+      213: -1189621081963160350
+    second: Interfaz colorida de Crear perfil_12
+  - first:
+      213: 1720629752338809448
+    second: Interfaz colorida de Crear perfil_13
+  - first:
+      213: -3076481603019511546
+    second: Interfaz colorida de Crear perfil_14
+  - first:
+      213: -2787005644048887687
+    second: Interfaz colorida de Crear perfil_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 491
+        width: 1260
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b12418d4e148d140800000000000000
+      internalID: 4744614658568364470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 237
+        width: 333
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6655a81f2b89c2f00800000000000000
+      internalID: 1093416703868163430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_2
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 240
+        width: 340
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c647ed6948a4aac60800000000000000
+      internalID: 7830152835464328300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 645
+        width: 89
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738d33142f3317350800000000000000
+      internalID: 6012644093085341751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_4
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 630
+        width: 164
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34ad5f5aab04d0f0800000000000000
+      internalID: -1093235983171869633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_5
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 240
+        width: 338
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bda96e50bd8838e0800000000000000
+      internalID: -1713463869576729165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_6
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 277
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f8fb84e2098ad70800000000000000
+      internalID: 9054645579291791215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_7
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 265
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a27e58e75c2ba20800000000000000
+      internalID: 3076738642650540650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_8
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 197
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea47dff4a70f9c3e0800000000000000
+      internalID: -2032829348662381394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_9
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 209
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abd564c3c8c6ae60800000000000000
+      internalID: 7973280933445229474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 37
+        width: 421
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf9ed552cb5f1620800000000000000
+      internalID: 2747015187941728223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 17
+        width: 389
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982c26ebfc18014a0800000000000000
+      internalID: -6624652322609642871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_12
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 31
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec1548cded9d7fe0800000000000000
+      internalID: -1189621081963160350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_13
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 39
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8628f1ab4a7e0e710800000000000000
+      internalID: 1720629752338809448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_14
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 63
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6096ffd28442e45d0800000000000000
+      internalID: -3076481603019511546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz colorida de Crear perfil_15
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 33
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970157702219259d0800000000000000
+      internalID: -2787005644048887687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Interfaz colorida de Crear perfil_0: 4744614658568364470
+      Interfaz colorida de Crear perfil_1: 1093416703868163430
+      Interfaz colorida de Crear perfil_10: 2747015187941728223
+      Interfaz colorida de Crear perfil_11: -6624652322609642871
+      Interfaz colorida de Crear perfil_12: -1189621081963160350
+      Interfaz colorida de Crear perfil_13: 1720629752338809448
+      Interfaz colorida de Crear perfil_14: -3076481603019511546
+      Interfaz colorida de Crear perfil_15: -2787005644048887687
+      Interfaz colorida de Crear perfil_2: 7830152835464328300
+      Interfaz colorida de Crear perfil_3: 6012644093085341751
+      Interfaz colorida de Crear perfil_4: -1093235983171869633
+      Interfaz colorida de Crear perfil_5: -1713463869576729165
+      Interfaz colorida de Crear perfil_6: 9054645579291791215
+      Interfaz colorida de Crear perfil_7: 3076738642650540650
+      Interfaz colorida de Crear perfil_8: -2032829348662381394
+      Interfaz colorida de Crear perfil_9: 7973280933445229474
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

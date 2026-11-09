@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>Tempo Tap - SE DESLIZA</title>
+  <defs><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#FFFDF5"/><stop offset="1" stop-color="#F3F7E9"/></linearGradient>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#75C8F2"/><stop offset="0.68" stop-color="#C4EAE7"/><stop offset="1" stop-color="#FFF1C8"/></linearGradient>
+  <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+  <linearGradient id="teal" x2="0" y2="1"><stop stop-color="#65D7C8"/><stop offset="1" stop-color="#24A69D"/></linearGradient>
+  <linearGradient id="coral" x2="0" y2="1"><stop stop-color="#FFBD91"/><stop offset="1" stop-color="#F47E67"/></linearGradient>
+  <linearGradient id="lilac" x2="0" y2="1"><stop stop-color="#D9C5F8"/><stop offset="1" stop-color="#9A7BDD"/></linearGradient>
+  <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient></defs>
+  <g transform="translate(128 230)"><g id="runnerSlide" stroke="#324962" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Superman-like prone slide: face, both arms and hands lead to the right; shoes trail behind. -->
+      <path d="M-31 -20 L-68 -20 L-88 -18 M-30 -12 L-67 -10 L-86 -9" fill="none" stroke="#324962" stroke-width="14"/>
+      <path d="M-87 -23 L-102 -22 Q-109 -19 -105 -14 L-81 -13 Q-77 -15 -80 -20Z M-86 -13 L-101 -11 Q-108 -8 -104 -3 L-80 -3 Q-76 -5 -79 -9Z" fill="#FFF9E9" stroke="#536B7E" stroke-width="2"/>
+      <path d="M-36 -31 Q-21 -43 5 -36 L24 -28 L18 -10 L-32 -10 Q-40 -18 -36 -31Z" fill="url(#teal)"/>
+      <path d="M-15 -29 L-11 -37 L-7 -29 L-11 -32Z" fill="#FFF9DE" stroke="#FFF9DE" stroke-width="1"/>
+      <path d="M5 -34 L42 -34 L75 -34" fill="none" stroke="#FFE0AD" stroke-width="10"/>
+      <path d="M73 -39 Q80 -42 84 -37 L87 -32 Q85 -27 79 -29 L71 -33Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.5"/>
+      <path d="M13 -37 L18 -41" fill="none" stroke="#FFE0AD" stroke-width="9"/>
+      <circle cx="30" cy="-43" r="22" fill="#FFE0AD"/>
+      <path d="M8 -49 Q6 -66 25 -70 Q44 -73 52 -54 Q40 -63 30 -57 Q21 -52 10 -58Z" fill="#744C42"/>
+      <ellipse cx="26" cy="-41" rx="2.5" ry="3.3" fill="#324962" stroke="none"/><ellipse cx="40" cy="-41" rx="2.5" ry="3.3" fill="#324962" stroke="none"/>
+      <circle cx="16" cy="-35" r="3" fill="#F8AA9A" stroke="none"/><circle cx="46" cy="-35" r="3" fill="#F8AA9A" stroke="none"/>
+      <path d="M29 -31 Q34 -27 39 -31" fill="none" stroke-width="2.1"/>
+      <path d="M9 -21 L49 -20 L87 -20" fill="none" stroke="#FFE0AD" stroke-width="10"/>
+      <path d="M85 -25 Q92 -28 96 -22 L98 -17 Q96 -12 90 -15 L83 -19Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.5"/>
+      <path d="M-123 -15 H-113 M-119 -25 H-110" fill="none" stroke="#43B6AD" stroke-width="3" opacity="0.85"/>
+    </g></g>
+</svg>

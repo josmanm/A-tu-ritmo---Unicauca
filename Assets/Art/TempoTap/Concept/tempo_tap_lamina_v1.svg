@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1090" viewBox="0 0 1600 1090">
+  <title>Tempo Tap — propuesta de estilo pastel</title>
+  <desc>Lamina conceptual con montanas sobre el fondo de Ritmo Basico, corredor corriendo, saltando y deslizandose boca abajo, con cabeza y manos hacia adelante bajo un pajaro, y tronco para saltar. No integrado en Unity.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#FFFDF5"/><stop offset="1" stop-color="#F3F7E9"/></linearGradient>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#75C8F2"/><stop offset="0.68" stop-color="#C4EAE7"/><stop offset="1" stop-color="#FFF1C8"/></linearGradient>
+    <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+    <linearGradient id="teal" x2="0" y2="1"><stop stop-color="#65D7C8"/><stop offset="1" stop-color="#24A69D"/></linearGradient>
+    <linearGradient id="coral" x2="0" y2="1"><stop stop-color="#FFBD91"/><stop offset="1" stop-color="#F47E67"/></linearGradient>
+    <linearGradient id="lilac" x2="0" y2="1"><stop stop-color="#D9C5F8"/><stop offset="1" stop-color="#9A7BDD"/></linearGradient>
+    <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient>
+    <clipPath id="gameClip"><rect x="46" y="142" width="1508" height="548" rx="38"/></clipPath>
+    <g id="note" fill="#FFF8E9" opacity="0.67"><circle cx="-7" cy="10" r="7"/><circle cx="21" cy="2" r="7"/><path d="M-1 10V-23L27 -30V2h-5v-25L4 -18V10z"/></g>
+    <g id="runnerRun" stroke="#324962" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="0" cy="2" rx="65" ry="7" fill="#344A62" opacity="0.18" stroke="none"/>
+      <!-- Long trousers and separated knees: running must read at game scale. -->
+      <path d="M-13 -60 L-33 -26 L-53 -15 M13 -60 L38 -37 L39 -10" fill="none" stroke="#324962" stroke-width="20"/>
+      <path d="M-56 -13 L-74 -8 Q-83 -4 -75 1 L-46 1 Q-41 -1 -44 -7Z M38 -9 L53 -5 Q61 -2 56 2 L30 2 Q25 -1 29 -6Z" fill="#FFF9E9" stroke="#536B7E" stroke-width="2.3"/>
+      <path d="M-19 -103 L-43 -82 L-28 -65 M20 -103 L45 -85 L58 -104" fill="none" stroke="#FFE0AD" stroke-width="12"/>
+      <path d="M-33 -68 Q-40 -63 -35 -57 L-25 -56 Q-19 -58 -22 -65Z M54 -107 Q53 -114 60 -114 Q69 -111 64 -103 L59 -98 Q53 -99 54 -107Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.8"/>
+      <path d="M-26 -107 Q-15 -116 0 -114 Q16 -115 27 -107 L23 -62 Q1 -52 -21 -63Z" fill="url(#teal)"/>
+      <path d="M-26 -101 L-36 -89 M26 -101 L36 -91" stroke="#20A9A2" stroke-width="11" fill="none"/>
+      <path d="M0 -120 V-113" fill="none" stroke="#FFE0AD" stroke-width="11"/>
+      <circle cx="0" cy="-144" r="26" fill="#FFE0AD"/>
+      <path d="M-25 -150 Q-28 -170 -8 -175 Q9 -184 23 -167 Q28 -161 26 -149 Q13 -164 2 -158 Q-10 -152 -22 -161Z" fill="#744C42"/>
+      <ellipse cx="-9" cy="-140" rx="2.8" ry="3.8" fill="#324962" stroke="none"/><ellipse cx="10" cy="-140" rx="2.8" ry="3.8" fill="#324962" stroke="none"/>
+      <circle cx="-19" cy="-133" r="4" fill="#F8AA9A" stroke="none"/><circle cx="20" cy="-133" r="4" fill="#F8AA9A" stroke="none"/>
+      <path d="M-5 -130 Q0 -125 6 -130" fill="none" stroke-width="2.5"/>
+      <path d="M-4 -92 L0 -103 L4 -92 L0 -95Z" fill="#FFF9DE" stroke="#FFF9DE" stroke-width="1"/>
+    </g>
+    <g id="runnerJump" stroke="#324962" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="0" cy="2" rx="64" ry="7" fill="#344A62" opacity="0.16" stroke="none"/>
+      <path d="M-14 -57 L-45 -19 M14 -57 L45 -19" fill="none" stroke="#324962" stroke-width="19"/>
+      <path d="M-45 -20 L-68 -14 Q-75 -11 -71 -6 L-40 -6 Q-34 -8 -37 -13Z M45 -20 L68 -14 Q75 -11 71 -6 L40 -6 Q34 -8 37 -13Z" fill="#FFF9E9" stroke="#536B7E" stroke-width="2.3"/>
+      <path d="M-21 -102 L-45 -122 L-51 -159 M21 -102 L46 -122 L52 -159" fill="none" stroke="#FFE0AD" stroke-width="12"/>
+      <path d="M-57 -162 Q-61 -169 -55 -172 L-47 -169 Q-42 -165 -46 -157 L-53 -156Z M46 -162 Q42 -169 48 -172 L57 -169 Q62 -164 57 -157 L50 -156Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.8"/>
+      <path d="M-26 -109 Q0 -122 26 -109 L22 -60 Q0 -48 -22 -60Z" fill="url(#teal)"/>
+      <path d="M-26 -103 L-35 -114 M26 -103 L36 -114" stroke="#20A9A2" stroke-width="11" fill="none"/>
+      <path d="M0 -126 V-117" fill="none" stroke="#FFE0AD" stroke-width="11"/>
+      <circle cx="0" cy="-150" r="26" fill="#FFE0AD"/>
+      <path d="M-26 -156 Q-29 -177 -8 -181 Q9 -190 23 -174 Q29 -168 26 -155 Q12 -169 2 -163 Q-12 -157 -24 -167Z" fill="#744C42"/>
+      <ellipse cx="-9" cy="-147" rx="2.8" ry="3.8" fill="#324962" stroke="none"/><ellipse cx="11" cy="-147" rx="2.8" ry="3.8" fill="#324962" stroke="none"/>
+      <circle cx="-19" cy="-140" r="4" fill="#F8AA9A" stroke="none"/><circle cx="19" cy="-140" r="4" fill="#F8AA9A" stroke="none"/>
+      <path d="M-5 -136 Q0 -130 6 -136" fill="none" stroke-width="2.5"/>
+      <path d="M-4 -92 L0 -103 L4 -92 L0 -95Z" fill="#FFF9DE" stroke="#FFF9DE" stroke-width="1"/>
+    </g>
+    <g id="runnerSlide" stroke="#324962" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="-2" cy="1" rx="105" ry="6" fill="#344A62" opacity="0.16" stroke="none"/>
+      <!-- Superman-like prone slide: face, both arms and hands lead to the right; shoes trail behind. -->
+      <path d="M-31 -20 L-68 -20 L-88 -18 M-30 -12 L-67 -10 L-86 -9" fill="none" stroke="#324962" stroke-width="14"/>
+      <path d="M-87 -23 L-102 -22 Q-109 -19 -105 -14 L-81 -13 Q-77 -15 -80 -20Z M-86 -13 L-101 -11 Q-108 -8 -104 -3 L-80 -3 Q-76 -5 -79 -9Z" fill="#FFF9E9" stroke="#536B7E" stroke-width="2"/>
+      <path d="M-36 -31 Q-21 -43 5 -36 L24 -28 L18 -10 L-32 -10 Q-40 -18 -36 -31Z" fill="url(#teal)"/>
+      <path d="M-15 -29 L-11 -37 L-7 -29 L-11 -32Z" fill="#FFF9DE" stroke="#FFF9DE" stroke-width="1"/>
+      <path d="M5 -34 L42 -34 L75 -34" fill="none" stroke="#FFE0AD" stroke-width="10"/>
+      <path d="M73 -39 Q80 -42 84 -37 L87 -32 Q85 -27 79 -29 L71 -33Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.5"/>
+      <path d="M13 -37 L18 -41" fill="none" stroke="#FFE0AD" stroke-width="9"/>
+      <circle cx="30" cy="-43" r="22" fill="#FFE0AD"/>
+      <path d="M8 -49 Q6 -66 25 -70 Q44 -73 52 -54 Q40 -63 30 -57 Q21 -52 10 -58Z" fill="#744C42"/>
+      <ellipse cx="26" cy="-41" rx="2.5" ry="3.3" fill="#324962" stroke="none"/><ellipse cx="40" cy="-41" rx="2.5" ry="3.3" fill="#324962" stroke="none"/>
+      <circle cx="16" cy="-35" r="3" fill="#F8AA9A" stroke="none"/><circle cx="46" cy="-35" r="3" fill="#F8AA9A" stroke="none"/>
+      <path d="M29 -31 Q34 -27 39 -31" fill="none" stroke-width="2.1"/>
+      <path d="M9 -21 L49 -20 L87 -20" fill="none" stroke="#FFE0AD" stroke-width="10"/>
+      <path d="M85 -25 Q92 -28 96 -22 L98 -17 Q96 -12 90 -15 L83 -19Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.5"/>
+      <path d="M-123 -15 H-113 M-119 -25 H-110" fill="none" stroke="#43B6AD" stroke-width="3" opacity="0.85"/>
+    </g>
+    <g id="log" stroke="#854D40" stroke-width="3" stroke-linejoin="round">
+      <path d="M-57 -47 Q-60 -57 -44 -60 H42 Q56 -61 59 -48 V-9 Q58 1 42 2 H-46 Q-58 1 -57 -11Z" fill="url(#coral)"/>
+      <path d="M-55 -47 Q-38 -49 -30 -47 M-17 -48 Q2 -50 11 -47 M25 -46 Q44 -48 58 -46" fill="none" stroke="#FFDEC0" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-47" cy="-27" rx="17" ry="26" fill="#FFDBA1"/><ellipse cx="-47" cy="-27" rx="10" ry="18" fill="none" stroke="#D89764" stroke-width="2"/>
+      <path d="M-22 -25 Q-10 -36 1 -27 M15 -16 Q28 -22 39 -13" fill="none" stroke="#D97961" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-62 3H62" fill="none" stroke="#719A63" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="bird" stroke="#54447F" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Bird faces left with a single clear raised wing. -->
+      <path d="M36 -29 L69 -48 L58 -27 L77 -27 L51 -13 L37 -16Z" fill="#927ACA"/>
+      <ellipse cx="5" cy="-23" rx="44" ry="23" fill="url(#lilac)"/>
+      <path d="M-2 -34 Q18 -79 54 -82 L45 -62 L61 -71 Q51 -47 26 -34 L10 -25Z" fill="#927ACA"/>
+      <circle cx="-36" cy="-30" r="18" fill="#C4ACEF"/>
+      <path d="M-53 -28 L-76 -20 L-52 -13Z" fill="#F4B761" stroke="#976543"/>
+      <circle cx="-40" cy="-34" r="3.6" fill="#34405E" stroke="none"/>
+      <circle cx="-41" cy="-35" r="1" fill="#FFFFFF" stroke="none"/>
+      <path d="M-8 -7 L-11 6 L-17 9 M-11 6 L-7 10 M8 -7 L6 6 L0 9 M6 6 L11 9" fill="none" stroke="#E6A862" stroke-width="3.2"/>
+    </g>
+  </defs>
+  <rect width="1600" height="1090" fill="url(#paper)"/>
+  <text x="62" y="69" fill="#324962" font-family="Segoe UI, sans-serif" font-size="38" font-weight="700">Tempo Tap <tspan fill="#269B9A">·</tspan> camino musical</text>
+  <text x="64" y="105" fill="#536882" font-family="Segoe UI, sans-serif" font-size="19">Lámina de muestra 01  ·  Arte alegre y pastel  ·  Composición de referencia, no pantalla final</text>
+  <rect x="46" y="148" width="1508" height="548" rx="38" fill="#789993" opacity="0.19"/>
+  <g clip-path="url(#gameClip)">
+    <rect x="46" y="142" width="1508" height="548" fill="url(#sky)"/>
+    <image x="46" y="142" width="1508" height="548" preserveAspectRatio="none" xlink:href="../../../Sprites/background_basic rhythm.png"/>
+    <path d="M388 551 Q504 487 600 425 Q609 418 619 428 Q692 496 771 551Z" fill="url(#mountain)"/>
+    <path d="M645 552 Q758 490 865 438 Q875 433 882 441 Q997 510 1102 552Z" fill="url(#mountain)"/>
+    <path d="M917 555 Q1031 509 1105 463 Q1114 458 1121 465 Q1192 510 1273 552Z" fill="#B8D9C5" opacity="0.56"/>
+    <path d="M566 447 Q594 428 602 425 Q609 420 619 430 L633 445 M845 453 L865 438 Q875 433 882 443 L900 454" fill="none" stroke="#E6F2DD" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <use xlink:href="#note" transform="translate(714 369) scale(.65)"/>
+    <use xlink:href="#note" transform="translate(925 351) scale(.5)"/>
+    <path d="M46 606 Q527 578 1012 601 Q1270 586 1554 600 V692 H46Z" fill="url(#track)"/>
+    <path d="M46 605 Q570 577 1030 602 Q1325 582 1554 601" fill="none" stroke="#FFF9E7" stroke-width="8"/>
+    <path d="M46 672 Q717 646 1554 670" fill="none" stroke="#CCAF80" stroke-width="4" opacity=".7"/>
+    <g transform="translate(379 599) scale(1.12)"><use xlink:href="#runnerRun"/></g>
+    <g transform="translate(1015 598) scale(1.08)"><use xlink:href="#log"/></g>
+    <g transform="translate(1375 514) scale(1.06)"><use xlink:href="#bird"/></g>
+    <g transform="translate(1330 598) scale(.89)"><use xlink:href="#runnerSlide"/></g>
+    <rect x="82" y="168" width="236" height="62" rx="28" fill="#FFF6DA" stroke="#557D99" stroke-width="3"/>
+    <circle cx="115" cy="200" r="20" fill="#F9C75D"/><text x="145" y="207" fill="#324962" font-family="Segoe UI, sans-serif" font-size="23" font-weight="700">Puntos  40</text>
+    <rect x="670" y="170" width="260" height="60" rx="30" fill="#FFF6DA" stroke="#557D99" stroke-width="3"/>
+    <text x="800" y="208" text-anchor="middle" fill="#324962" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700">¡Sigue el pulso!</text>
+    <rect x="1332" y="168" width="182" height="62" rx="29" fill="#FFF6DA" stroke="#557D99" stroke-width="3"/>
+    <circle cx="1373" cy="199" r="19" fill="#A78BE3"/><path d="M1364 193h18 M1364 200h18 M1364 207h18" fill="none" stroke="#FFF9E7" stroke-width="3" stroke-linecap="round"/>
+    <text x="1403" y="207" fill="#324962" font-family="Segoe UI, sans-serif" font-size="23" font-weight="700">Menú</text>
+    <rect x="617" y="243" width="366" height="31" rx="15" fill="#FFF8E8" stroke="#7697A3" stroke-width="3"/>
+    <rect x="621" y="247" width="215" height="23" rx="11" fill="url(#teal)"/>
+    <circle cx="841" cy="259" r="17" fill="#FFF5C7" stroke="#379F9B" stroke-width="4"/>
+    <rect x="903" y="399" width="207" height="42" rx="21" fill="#FFF6DA" stroke="#E88A6D" stroke-width="2"/>
+    <text x="1006" y="427" text-anchor="middle" fill="#6A3C32" font-family="Segoe UI, sans-serif" font-size="21" font-weight="700">↑ SALTA</text>
+  </g>
+  <rect x="47.5" y="143.5" width="1505" height="545" rx="37" fill="none" stroke="#94C5BF" stroke-width="3"/>
+  <text x="65" y="758" fill="#324962" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">Piezas del juego</text>
+  <text x="65" y="786" fill="#63758B" font-family="Segoe UI, sans-serif" font-size="17">Una misma línea, sombras suaves y colores que indican la acción sin depender solo de ellos.</text>
+  <g fill="#FFFFFF" stroke="#D6E8D9" stroke-width="2">
+    <rect x="48" y="809" width="290" height="232" rx="27"/><rect x="350" y="809" width="290" height="232" rx="27"/>
+    <rect x="652" y="809" width="290" height="232" rx="27"/><rect x="954" y="809" width="290" height="232" rx="27"/>
+    <rect x="1256" y="809" width="298" height="232" rx="27"/>
+  </g>
+  <g transform="translate(192 970) scale(.79)"><use xlink:href="#runnerRun"/></g>
+  <g transform="translate(492 988) scale(.9)"><use xlink:href="#runnerJump"/></g>
+  <g transform="translate(782 967) scale(1.1)"><use xlink:href="#runnerSlide"/></g>
+  <g transform="translate(1098 972) scale(1.2)"><use xlink:href="#log"/></g>
+  <g transform="translate(1403 952) scale(1.13)"><use xlink:href="#bird"/></g>
+  <g fill="#324962" font-family="Segoe UI, sans-serif" font-weight="700" font-size="20" text-anchor="middle">
+    <text x="193" y="1020">CORRE</text><text x="495" y="1020">SALTA</text><text x="797" y="1020">SE DESLIZA</text>
+    <text x="1100" y="1020">TRONCO · saltar</text><text x="1406" y="1020">PÁJARO · deslizarse</text>
+  </g>
+  <text x="65" y="1071" fill="#64788A" font-family="Segoe UI, sans-serif" font-size="15">Propuesta original dibujada para Simondice · Muestra conceptual: el tamaño y las colisiones se ajustarán en Unity después de aprobar el arte.</text>
+</svg>

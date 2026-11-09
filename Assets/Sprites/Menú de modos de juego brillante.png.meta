@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: a47b546f32e75104cb3f5e8637eca1a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3583062392786520600
+    second: "Men\xFA de modos de juego brillante_0"
+  - first:
+      213: 392864673001019919
+    second: "Men\xFA de modos de juego brillante_1"
+  - first:
+      213: -8173707708671770756
+    second: "Men\xFA de modos de juego brillante_2"
+  - first:
+      213: -1850836910207977419
+    second: "Men\xFA de modos de juego brillante_3"
+  - first:
+      213: -6973120768337559377
+    second: "Men\xFA de modos de juego brillante_4"
+  - first:
+      213: 2428068618286865191
+    second: "Men\xFA de modos de juego brillante_5"
+  - first:
+      213: -7620454569120722608
+    second: "Men\xFA de modos de juego brillante_6"
+  - first:
+      213: -8473308658187169388
+    second: "Men\xFA de modos de juego brillante_7"
+  - first:
+      213: 7617240673863347096
+    second: "Men\xFA de modos de juego brillante_8"
+  - first:
+      213: -1850177358060615906
+    second: "Men\xFA de modos de juego brillante_9"
+  - first:
+      213: -5752128527692777717
+    second: "Men\xFA de modos de juego brillante_10"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_0"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 25
+        width: 1343
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a0a1a234899b130800000000000000
+      internalID: 3583062392786520600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_1"
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 649
+        width: 981
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a960fa65cb37500800000000000000
+      internalID: 392864673001019919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_2"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 120
+        width: 922
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f3fb62528219e80800000000000000
+      internalID: -8173707708671770756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_3"
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 98
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5383fd5e2a18056e0800000000000000
+      internalID: -1850836910207977419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_4"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 80
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0475b3b9f7a3f90800000000000000
+      internalID: -6973120768337559377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_5"
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b134b3b8b32b120800000000000000
+      internalID: 2428068618286865191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_6"
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 50
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0519e8cb1f4be3690800000000000000
+      internalID: -7620454569120722608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_7"
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491138c3ba2c86a80800000000000000
+      internalID: -8473308658187169388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_8"
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 50
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b2846f800e5b960800000000000000
+      internalID: 7617240673863347096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_9"
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 56
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e178359de79d256e0800000000000000
+      internalID: -1850177358060615906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA de modos de juego brillante_10"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b073b7484955c20b0800000000000000
+      internalID: -5752128527692777717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Men\xFA de modos de juego brillante_0": 3583062392786520600
+      "Men\xFA de modos de juego brillante_1": 392864673001019919
+      "Men\xFA de modos de juego brillante_10": -5752128527692777717
+      "Men\xFA de modos de juego brillante_2": -8173707708671770756
+      "Men\xFA de modos de juego brillante_3": -1850836910207977419
+      "Men\xFA de modos de juego brillante_4": -6973120768337559377
+      "Men\xFA de modos de juego brillante_5": 2428068618286865191
+      "Men\xFA de modos de juego brillante_6": -7620454569120722608
+      "Men\xFA de modos de juego brillante_7": -8473308658187169388
+      "Men\xFA de modos de juego brillante_8": 7617240673863347096
+      "Men\xFA de modos de juego brillante_9": -1850177358060615906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

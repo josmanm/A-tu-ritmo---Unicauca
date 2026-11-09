@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="96" viewBox="0 0 160 96">
+  <title>Tempo Tap - TRONCO</title>
+  <defs><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#FFFDF5"/><stop offset="1" stop-color="#F3F7E9"/></linearGradient>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#75C8F2"/><stop offset="0.68" stop-color="#C4EAE7"/><stop offset="1" stop-color="#FFF1C8"/></linearGradient>
+  <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+  <linearGradient id="teal" x2="0" y2="1"><stop stop-color="#65D7C8"/><stop offset="1" stop-color="#24A69D"/></linearGradient>
+  <linearGradient id="coral" x2="0" y2="1"><stop stop-color="#FFBD91"/><stop offset="1" stop-color="#F47E67"/></linearGradient>
+  <linearGradient id="lilac" x2="0" y2="1"><stop stop-color="#D9C5F8"/><stop offset="1" stop-color="#9A7BDD"/></linearGradient>
+  <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient></defs>
+  <g transform="translate(80 76)"><g id="log" stroke="#854D40" stroke-width="3" stroke-linejoin="round">
+      <path d="M-57 -47 Q-60 -57 -44 -60 H42 Q56 -61 59 -48 V-9 Q58 1 42 2 H-46 Q-58 1 -57 -11Z" fill="url(#coral)"/>
+      <path d="M-55 -47 Q-38 -49 -30 -47 M-17 -48 Q2 -50 11 -47 M25 -46 Q44 -48 58 -46" fill="none" stroke="#FFDEC0" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-47" cy="-27" rx="17" ry="26" fill="#FFDBA1"/><ellipse cx="-47" cy="-27" rx="10" ry="18" fill="none" stroke="#D89764" stroke-width="2"/>
+      <path d="M-22 -25 Q-10 -36 1 -27 M15 -16 Q28 -22 39 -13" fill="none" stroke="#D97961" stroke-width="3" stroke-linecap="round"/>
+    </g></g>
+</svg>

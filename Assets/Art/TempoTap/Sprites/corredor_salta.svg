@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>Tempo Tap - SALTA</title>
+  <defs><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#FFFDF5"/><stop offset="1" stop-color="#F3F7E9"/></linearGradient>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#75C8F2"/><stop offset="0.68" stop-color="#C4EAE7"/><stop offset="1" stop-color="#FFF1C8"/></linearGradient>
+  <linearGradient id="track" x2="0" y2="1"><stop stop-color="#FCEAB8"/><stop offset="1" stop-color="#E7C996"/></linearGradient>
+  <linearGradient id="teal" x2="0" y2="1"><stop stop-color="#65D7C8"/><stop offset="1" stop-color="#24A69D"/></linearGradient>
+  <linearGradient id="coral" x2="0" y2="1"><stop stop-color="#FFBD91"/><stop offset="1" stop-color="#F47E67"/></linearGradient>
+  <linearGradient id="lilac" x2="0" y2="1"><stop stop-color="#D9C5F8"/><stop offset="1" stop-color="#9A7BDD"/></linearGradient>
+  <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#ACD6CE" stop-opacity="0.86"/><stop offset="1" stop-color="#A7D3B2" stop-opacity="0.48"/></linearGradient></defs>
+  <g transform="translate(128 200)"><g id="runnerJump" stroke="#324962" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-14 -57 L-45 -19 M14 -57 L45 -19" fill="none" stroke="#324962" stroke-width="19"/>
+      <path d="M-45 -20 L-68 -14 Q-75 -11 -71 -6 L-40 -6 Q-34 -8 -37 -13Z M45 -20 L68 -14 Q75 -11 71 -6 L40 -6 Q34 -8 37 -13Z" fill="#FFF9E9" stroke="#536B7E" stroke-width="2.3"/>
+      <path d="M-21 -102 L-45 -122 L-51 -159 M21 -102 L46 -122 L52 -159" fill="none" stroke="#FFE0AD" stroke-width="12"/>
+      <path d="M-57 -162 Q-61 -169 -55 -172 L-47 -169 Q-42 -165 -46 -157 L-53 -156Z M46 -162 Q42 -169 48 -172 L57 -169 Q62 -164 57 -157 L50 -156Z" fill="#FFE0AD" stroke="#A87365" stroke-width="1.8"/>
+      <path d="M-26 -109 Q0 -122 26 -109 L22 -60 Q0 -48 -22 -60Z" fill="url(#teal)"/>
+      <path d="M-26 -103 L-35 -114 M26 -103 L36 -114" stroke="#20A9A2" stroke-width="11" fill="none"/>
+      <path d="M0 -126 V-117" fill="none" stroke="#FFE0AD" stroke-width="11"/>
+      <circle cx="0" cy="-150" r="26" fill="#FFE0AD"/>
+      <path d="M-26 -156 Q-29 -177 -8 -181 Q9 -190 23 -174 Q29 -168 26 -155 Q12 -169 2 -163 Q-12 -157 -24 -167Z" fill="#744C42"/>
+      <ellipse cx="-9" cy="-147" rx="2.8" ry="3.8" fill="#324962" stroke="none"/><ellipse cx="11" cy="-147" rx="2.8" ry="3.8" fill="#324962" stroke="none"/>
+      <circle cx="-19" cy="-140" r="4" fill="#F8AA9A" stroke="none"/><circle cx="19" cy="-140" r="4" fill="#F8AA9A" stroke="none"/>
+      <path d="M-5 -136 Q0 -130 6 -136" fill="none" stroke-width="2.5"/>
+      <path d="M-4 -92 L0 -103 L4 -92 L0 -95Z" fill="#FFF9DE" stroke="#FFF9DE" stroke-width="1"/>
+    </g></g>
+</svg>

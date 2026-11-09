@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="176" viewBox="0 0 512 176">
+  <title>Camino del pulso - marco reutilizable</title>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1">
+      <stop stop-color="#FFFDF6"/>
+      <stop offset="1" stop-color="#F0F7EA"/>
+    </linearGradient>
+  </defs>
+  <rect x="15" y="27" width="482" height="129" rx="54" fill="#30485F" opacity=".2"/>
+  <rect x="12" y="20" width="488" height="129" rx="54" fill="url(#paper)" stroke="#30485F" stroke-width="6"/>
+  <!-- One uninterrupted road; the note moving on it is drawn by Unity. -->
+  <path d="M70 106H430" fill="none" stroke="#30485F" stroke-opacity=".18" stroke-width="24" stroke-linecap="round"/>
+  <path d="M70 106H430" fill="none" stroke="#85C9BE" stroke-width="14" stroke-linecap="round"/>
+  <!-- The only arrival point: a small finish flag and its distinctive star. -->
+  <path d="M444 88V124" stroke="#30485F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M444 42 451 57 468 59 456 71 459 88 444 80 429 88 432 71 420 59 437 57Z" fill="#FFD68B" stroke="#30485F" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M444 29V20 M412 44 406 39 M476 44 482 39" stroke="#30485F" stroke-width="4" stroke-linecap="round"/>
+</svg>
