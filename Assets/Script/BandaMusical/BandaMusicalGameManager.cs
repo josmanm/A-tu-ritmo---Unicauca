@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -79,6 +80,7 @@ public class BandaMusicalGameManager : MonoBehaviour
     private int currentLevel;
     private int sectionIndex;
     private int sectionHits;
+    private readonly HashSet<int> tutorialHits = new HashSet<int>();
     private Coroutine activity;
     private bool playingMainLevels;
     private int score;
@@ -177,6 +179,8 @@ public class BandaMusicalGameManager : MonoBehaviour
         if (startButton != null) startButton.gameObject.SetActive(false);
         if (isPaused) ClosePause();
         if (activity != null) StopCoroutine(activity);
+        if (recorder != null && playingMainLevels)
+            recorder.EndEvaluatedSection(AudioSettings.dspTime, assisted, false);
         if (rhythm != null) rhythm.StopSequence();
         if (drum != null) drum.EndBeatGuide();
         // Record an interrupted activity before starting a different one.
@@ -239,10 +243,16 @@ public class BandaMusicalGameManager : MonoBehaviour
             return;
         }
         if (!accepting || !rhythm.Running) return;
+        if (!playingMainLevels)
+        {
+            int beat = rhythm.NearestBeat(dspTime, out float tutorialOffset);
+            if (Mathf.Abs(tutorialOffset) <= rhythm.toleranceSeconds * 1000f &&
+                tutorialHits.Add(beat)) sectionHits++;
+            return;
+        }
         bool unique = recorder.RecordTap(dspTime, rhythm, sectionIndex,
             out float offsetMs, out string result);
         if (unique) sectionHits++;
-        if (!playingMainLevels) return; // Tutorial sin puntos ni penalizaciones.
 
         int delta = 0;
         string grade = "extra";
@@ -347,8 +357,6 @@ public class BandaMusicalGameManager : MonoBehaviour
                 yield return NarrateBeforeBeat("Escucha al mono, al gato y al oso.", "banda_escucha_animales");
             yield return NarrateBeforeBeat(config.label + ": toca cuando brille", LevelIntroductions[Mathf.Min(level, LevelIntroductions.Length - 1)]);
             MusicKit kit = kitOrder != null && level < kitOrder.Length ? musicKits[kitOrder[level]] : null;
-            recorder.BeginLevel(level + 1, kit != null ? kit.id :
-                selectedSong != null ? selectedSong.id : string.Empty, config.bpm);
             bool hasLevelLoops = config.guidedLoop != null && config.backgroundLoop != null;
             // Only change tempo when the corresponding music changes too.
             rhythm.bpm = kit != null || hasLevelLoops ? config.bpm :
@@ -361,6 +369,8 @@ public class BandaMusicalGameManager : MonoBehaviour
             // Round to a complete beat: at 60/80/100 BPM, 60 s is exact.
             int expectedBeats = kit != null || hasLevelLoops
                 ? Mathf.RoundToInt(config.levelDurationSeconds * config.bpm / 60f) : config.beats;
+            recorder.BeginLevel(level + 1, kit != null ? kit.id :
+                selectedSong != null ? selectedSong.id : string.Empty, Mathf.RoundToInt(rhythm.bpm), expectedBeats);
             int tries = 0;
             do
             {
@@ -371,7 +381,6 @@ public class BandaMusicalGameManager : MonoBehaviour
                 else
                     yield return PlaySection(expectedBeats, true, true, config.visualHelp || assisted);
                 playingMainLevels = false;
-                recorder.AddSection(expectedBeats, sectionHits, assisted);
                 // A looped level is one full minute, even if the player needs
                 // more practice; do not silently repeat the entire minute.
                 if (kit != null || hasLevelLoops || sectionHits >= Mathf.CeilToInt(expectedBeats * config.successFraction)) break;
@@ -384,6 +393,7 @@ public class BandaMusicalGameManager : MonoBehaviour
                     yield return PlaySection(4, false, false, true);
                 }
             } while (tries < 2);
+            recorder.CompleteLevel();
 
             bool accompanied = sectionHits >= Mathf.CeilToInt(expectedBeats * config.successFraction);
             if (!accompanied) allLevelsSucceeded = false;
@@ -422,14 +432,17 @@ public class BandaMusicalGameManager : MonoBehaviour
     private IEnumerator PlaySection(int beats, bool withInput, bool song, bool showHand)
     {
         sectionHits = 0;
+        tutorialHits.Clear();
         sectionIndex++;
         accepting = withInput;
         SetHand(showHand);
         rhythm.StartSequence(beats, song);
+        if (playingMainLevels) recorder.BeginEvaluatedSection(rhythm);
         drum.BeginBeatGuide(rhythm.FirstBeatDspTime, rhythm.Interval, beats);
         double end = rhythm.FirstBeatDspTime + (beats - 1) * rhythm.Interval + rhythm.toleranceSeconds;
         while (AudioSettings.dspTime < end) yield return null;
         accepting = false;
+        if (playingMainLevels) recorder.EndEvaluatedSection(AudioSettings.dspTime, assisted, true);
         rhythm.StopSequence();
         drum.EndBeatGuide();
         monkey.FinishPhrase();
@@ -458,6 +471,7 @@ public class BandaMusicalGameManager : MonoBehaviour
             yield return PlaySection(beats, true, true, showHand);
             yield break;
         }
+        recorder.BeginEvaluatedSection(rhythm);
         drum.BeginBeatGuide(rhythm.FirstBeatDspTime, rhythm.Interval, beats);
         double lastWindowEnd = rhythm.FirstBeatDspTime + (beats - 1) * rhythm.Interval + rhythm.toleranceSeconds;
         double audioEnd = rhythm.FirstBeatDspTime + beats * rhythm.Interval;
@@ -521,6 +535,7 @@ public class BandaMusicalGameManager : MonoBehaviour
             yield return null;
         }
         accepting = false;
+        recorder.EndEvaluatedSection(AudioSettings.dspTime, assisted, true);
         while (AudioSettings.dspTime < audioEnd) yield return null;
         rhythm.StopSequence();
         drum.EndBeatGuide();
@@ -575,7 +590,11 @@ public class BandaMusicalGameManager : MonoBehaviour
     {
         if (isPaused) ClosePause();
         if (!completed && recorder != null)
+        {
+            if (playingMainLevels)
+                recorder.EndEvaluatedSection(AudioSettings.dspTime, assisted, false);
             recorder.Save(Mathf.Max(1, currentLevel + 1), Mathf.RoundToInt(rhythm.bpm), false);
+        }
         if (rhythm != null) rhythm.StopSequence();
         if (drum != null) drum.EndBeatGuide();
         SceneTransitionController.LoadScene("MainScene");

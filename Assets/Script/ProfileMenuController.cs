@@ -95,6 +95,13 @@ public class ProfileMenuController : MonoBehaviour
         EnsureCardsContainer();
         EnsureCreatePopup();
         ConfigureButtons();
+        if (useProfileArtwork && panelRoot != null)
+        {
+            // Match the blue already authored on CardProfile's text. Do not
+            // recolor labels that deliberately use another palette color.
+            foreach (TMP_Text text in panelRoot.GetComponentsInChildren<TMP_Text>(true))
+                if (text.color == Color.white) text.color = DarkText;
+        }
 
         if (PlayerProfileManager.Instance != null)
             PlayerProfileManager.Instance.ActiveProfileChanged += HandleActiveProfileChanged;
@@ -900,7 +907,7 @@ public class ProfileMenuController : MonoBehaviour
             label.fontSizeMin = useProfileArtwork ? 12f : 20f;
             label.fontSizeMax = useProfileArtwork ? 22f : 25f;
             label.fontSize = useProfileArtwork ? 22f : 25f;
-            label.color = useProfileArtwork ? Color.white : DarkText;
+            label.color = DarkText;
             if (useProfileArtwork)
                 label.margin = new Vector4(4f, 0f, 4f, 0f);
             label.fontStyle = FontStyles.Bold;
@@ -1044,7 +1051,10 @@ public class ProfileMenuController : MonoBehaviour
                 selectedOutline.effectDistance = new Vector2(5f, -5f);
             }
             if (label != null)
+            {
+                label.color = DarkText;
                 label.text = GetProfileDisplayName(profile.name);
+            }
             return;
         }
         background.color = isActive ? Color.white : new Color(1f, 1f, 1f, 0.94f);

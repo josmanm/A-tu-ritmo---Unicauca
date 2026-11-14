@@ -4,4 +4,5 @@ using UnityEngine;
 public sealed class BoySpeakFrames : ScriptableObject
 {
     public Sprite[] frames;
+    public RuntimeAnimatorController speakingController;
 }

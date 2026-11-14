@@ -22,12 +22,15 @@ public sealed class GameTutorialOverlay : MonoBehaviour
     private Transform glowTarget;
     private Canvas overlayCanvas;
     private Canvas focusedCanvas;
+    private RectTransform focusedDrumRect;
+    private Vector2 focusedDrumPosition;
     private AudioClip narrationClip;
     private RectTransform bubbleRect;
     private BeatGuideUI tutorialBeatGuide;
     private Canvas canvas;
     private RectTransform overlayRect;
     private UnityEngine.UI.Image boy;
+    private bool boyUsesAnimator;
     private TMP_Text caption;
     private Transform[] focus;
     private string[] captions;
@@ -124,8 +127,15 @@ public sealed class GameTutorialOverlay : MonoBehaviour
         boyRect.anchorMin = boyRect.anchorMax = new Vector2(0f, 0f);
         boyRect.pivot = new Vector2(0f, 0f);
         boyRect.anchoredPosition = new Vector2(26f, 16f);
-        float boySize = Mathf.Min(230f, overlayRect.rect.width * 0.25f);
+        float boySize = Mathf.Min(500f, overlayRect.rect.width * 0.42f);
         boyRect.sizeDelta = new Vector2(boySize, boySize);
+        // The authored clip drives the Image; the frame array remains a fallback
+        // for projects that have not generated the controller yet.
+        if (boyFrames != null && boyFrames.speakingController != null)
+        {
+            boy.gameObject.AddComponent<Animator>().runtimeAnimatorController = boyFrames.speakingController;
+            boyUsesAnimator = true;
+        }
 
         GameObject bubble = new GameObject("Explicacion", typeof(RectTransform), typeof(CanvasRenderer), typeof(UnityEngine.UI.Image));
         bubbleRect = bubble.GetComponent<RectTransform>();
@@ -197,8 +207,11 @@ public sealed class GameTutorialOverlay : MonoBehaviour
             }
             if (tutorialBeatGuide != null)
                 tutorialBeatGuide.ShowTutorialCue(Mathf.Repeat(Time.unscaledTime * 0.65f, 1f), "SALTA\nAL PULSO");
-            if (frames != null && frames.Length > 0)
-                boy.sprite = frames[Mathf.FloorToInt(Time.unscaledTime * 7f) % frames.Length];
+            if (!boyUsesAnimator && frames != null && frames.Length > 0)
+            {
+                int frame = Mathf.FloorToInt(Time.unscaledTime * 12f) % frames.Length;
+                if (boy.sprite != frames[frame]) boy.sprite = frames[frame];
+            }
             Transform target = focus[stage];
             if (playButton != null && target == playButton.transform && stage > 0)
                 target = focus[stage - 1];
@@ -275,6 +288,11 @@ public sealed class GameTutorialOverlay : MonoBehaviour
 
     private void ReleaseFocusedCanvas()
     {
+        if (focusedDrumRect != null)
+        {
+            focusedDrumRect.anchoredPosition = focusedDrumPosition;
+            focusedDrumRect = null;
+        }
         if (focusedCanvas == null) return;
         focusedCanvas.enabled = false;
         Destroy(focusedCanvas);
@@ -286,13 +304,35 @@ public sealed class GameTutorialOverlay : MonoBehaviour
         highlightedImage.enabled = false;
         highlightedLabel.enabled = false;
         drumOutline.enabled = false;
-        if (target != null && target.GetComponent<BeatGuideUI>() != null)
+        // Raise the real, complete board/drum above the dimmer. Copying only its
+        // Image produces a rectangular hole around Simon and a second displaced
+        // drum (the tutorial also shifts the copied drum clear of the caption).
+        if (target != null && (target.GetComponent<BeatGuideUI>() != null ||
+            target.GetComponent<DrumInputController>() != null ||
+            target.GetComponentInChildren<SimonZoneUI>(true) != null))
         {
+            if (focusedCanvas != null && focusedCanvas.transform != target)
+                ReleaseFocusedCanvas();
             if (focusedCanvas == null)
             {
                 focusedCanvas = target.gameObject.AddComponent<Canvas>();
                 focusedCanvas.overrideSorting = true;
                 focusedCanvas.sortingOrder = overlayCanvas.sortingOrder + 1;
+            }
+            if (target.GetComponent<DrumInputController>() != null && focusedDrumRect == null)
+            {
+                focusedDrumRect = target as RectTransform;
+                if (focusedDrumRect != null)
+                {
+                    focusedDrumPosition = focusedDrumRect.anchoredPosition;
+                    RectTransform parent = focusedDrumRect.parent as RectTransform;
+                    if (parent != null)
+                    {
+                        float drumBottom = RectTransformUtility.CalculateRelativeRectTransformBounds(parent, focusedDrumRect).min.y;
+                        float bubbleTop = RectTransformUtility.CalculateRelativeRectTransformBounds(parent, bubbleRect).max.y;
+                        focusedDrumRect.anchoredPosition += Vector2.up * Mathf.Max(0f, bubbleTop + 22f - drumBottom);
+                    }
+                }
             }
             backdrop.enabled = true;
             for (int i = 0; i < shade.Length; i++) shade[i].enabled = false;

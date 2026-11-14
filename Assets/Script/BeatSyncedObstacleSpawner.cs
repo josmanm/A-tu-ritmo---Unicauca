@@ -19,6 +19,7 @@ public class BeatSyncedObstacleSpawner : MonoBehaviour
     public Sprite logSprite;
     public Sprite birdSprite;
     public Sprite[] birdFrames;
+    public RuntimeAnimatorController birdAnimationController;
     [Min(1f)] public float birdFramesPerSecond = 12f;
     [Min(0.01f)] public float birdVisualScale = 5f;
     [Min(0.01f)] public float logVisualScale = 1f;
@@ -232,7 +233,17 @@ public class BeatSyncedObstacleSpawner : MonoBehaviour
         var mover = obs.GetComponent<ObstacleMoverBeat>();
         if (mover == null) mover = obs.AddComponent<ObstacleMoverBeat>();
         if (action == ObstacleAction.Duck && birdFrames != null && birdFrames.Length > 0)
-            mover.ConfigureAnimation(obs.GetComponentInChildren<SpriteRenderer>(), birdFrames, birdFramesPerSecond);
+        {
+            SpriteRenderer visual = obs.GetComponentInChildren<SpriteRenderer>();
+            if (birdAnimationController != null && visual != null)
+            {
+                Animator animator = visual.GetComponent<Animator>();
+                if (animator == null) animator = visual.gameObject.AddComponent<Animator>();
+                animator.runtimeAnimatorController = birdAnimationController;
+            }
+            else
+                mover.ConfigureAnimation(visual, birdFrames, birdFramesPerSecond);
+        }
 
         float obstacleHalfWidth = GetHalfWidth(obs.GetComponent<Collider2D>());
         float obstacleTopY = GetTopY(obs.GetComponent<Collider2D>(), obstacleY);

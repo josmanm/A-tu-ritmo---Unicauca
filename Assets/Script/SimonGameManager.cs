@@ -474,7 +474,8 @@ public class SimonGameManager : MonoBehaviour
         exitModeSelectionButton.onClick.AddListener(LoadMainScene);
 
         if (replayButton == null)
-            replayButton = CreateLearningButton(canvas.transform, "PracticeReplayButton", "Escuchar otra vez", new Vector2(0f, -352f));
+            // Keep the help control beside, not underneath, the board's lower labels.
+            replayButton = CreateLearningButton(canvas.transform, "PracticeReplayButton", "Escuchar otra vez", new Vector2(340f, -270f));
 
         EnsureRhythmCue(canvas.transform);
     }
@@ -581,6 +582,9 @@ public class SimonGameManager : MonoBehaviour
         label.text = text;
         label.font = statusText != null ? statusText.font : label.font;
         label.fontSize = 27f;
+        label.enableAutoSizing = true;
+        label.fontSizeMin = 20f;
+        label.fontSizeMax = 27f;
         label.alignment = TextAlignmentOptions.Center;
         label.color = Color.white;
         label.raycastTarget = false;

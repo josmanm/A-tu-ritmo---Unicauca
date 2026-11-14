@@ -5,14 +5,15 @@ public class MusicianController : MonoBehaviour
 {
     public UnityEngine.UI.Image portrait;
     public Sprite[] beatFrames;
-    [Tooltip("Clip opcional para el Image. Se muestrea con el reloj DSP: un ciclo cada dos pulsos.")]
+    [Tooltip("Clip del Image; se muestrea con el reloj DSP según beatsPerCycle.")]
     public AnimationClip beatAnimation;
-    private double lastBeatDspTime;
     private double firstBeatDspTime;
     private double beatInterval;
-    private int beatIndex;
     private bool animating;
     private Animator clipSampler;
+    private int displayedFrame = -1;
+    [Header("Animación visual (sin alterar el reloj de puntuación)")]
+    [Min(1)] public int beatsPerCycle = 1;
 
     private void Awake()
     {
@@ -24,12 +25,11 @@ public class MusicianController : MonoBehaviour
         if (!gameObject.activeInHierarchy || portrait == null) return;
         if (beatAnimation != null && clipSampler == null)
             clipSampler = GetComponent<Animator>();
-        beatIndex = index;
-        lastBeatDspTime = dspTime;
         firstBeatDspTime = dspTime - index * interval;
         beatInterval = interval;
         animating = beatAnimation != null && clipSampler != null ||
             beatFrames != null && beatFrames.Length > 0;
+        if (index == 0) displayedFrame = -1;
         UpdateFrame();
     }
 
@@ -42,22 +42,31 @@ public class MusicianController : MonoBehaviour
     {
         if (beatAnimation != null && clipSampler != null && beatAnimation.length > 0f && beatInterval > 0d)
         {
-            // Animator.speed alone can drift. Sample the authored UI animation
-            // at the exact phase shared by music, cue and tap scoring.
-            double twoBeatPhase = (AudioSettings.dspTime - firstBeatDspTime) / (2d * beatInterval);
-            float clipTime = (float)((twoBeatPhase - Math.Floor(twoBeatPhase)) * beatAnimation.length);
-            beatAnimation.SampleAnimation(gameObject, clipTime);
+            // Sample only when the clip advances to another authored frame. The
+            // DSP phase keeps it in step without rebuilding the UI every Update.
+            double phase = (AudioSettings.dspTime - firstBeatDspTime) /
+                (Mathf.Max(1, beatsPerCycle) * beatInterval);
+            int count = Mathf.Max(1, Mathf.RoundToInt(beatAnimation.length * beatAnimation.frameRate));
+            int frame = Mathf.Clamp((int)((phase - Math.Floor(phase)) * count), 0, count - 1);
+            if (frame != displayedFrame)
+            {
+                beatAnimation.SampleAnimation(gameObject, frame / beatAnimation.frameRate);
+                displayedFrame = frame;
+            }
             return;
         }
-        // A full 16-frame action spans two beats; all in-between poses are
-        // displayed at ~10.7 FPS at 80 BPM instead of one frame per beat.
+        // Fallback for a musician without an authored UI clip.
         if (beatFrames == null || beatFrames.Length == 0) return;
-        int framesPerBeat = (beatFrames.Length + 1) / 2;
         double progress = beatInterval > 0d
-            ? Math.Max(0d, (AudioSettings.dspTime - lastBeatDspTime) / beatInterval) : 0d;
-        int withinBeat = Mathf.Clamp((int)(progress * framesPerBeat), 0, framesPerBeat - 1);
-        int frame = (beatIndex % 2) * framesPerBeat + withinBeat;
-        portrait.sprite = beatFrames[Mathf.Min(frame, beatFrames.Length - 1)];
+            ? Math.Max(0d, (AudioSettings.dspTime - firstBeatDspTime) /
+                (Mathf.Max(1, beatsPerCycle) * beatInterval)) : 0d;
+        int frameIndex = Mathf.Min((int)((progress - Math.Floor(progress)) * beatFrames.Length),
+            beatFrames.Length - 1);
+        if (frameIndex != displayedFrame)
+        {
+            portrait.sprite = beatFrames[frameIndex];
+            displayedFrame = frameIndex;
+        }
         // Keep the musician at one fixed size. The sprite sheet already has
         // pose changes; scaling the entire portrait on every beat looked like
         // alternating frames had different dimensions.
@@ -66,6 +75,7 @@ public class MusicianController : MonoBehaviour
     public void FinishPhrase()
     {
         animating = false;
+        displayedFrame = -1;
         if (beatAnimation != null && clipSampler != null)
             beatAnimation.SampleAnimation(gameObject, 0f);
         else if (portrait != null && beatFrames != null && beatFrames.Length > 0)

@@ -13,6 +13,7 @@ public class ObstacleMoverBeat : MonoBehaviour
     Sprite[] animationFrames;
     float animationFramesPerSecond;
     float animationStartedAt;
+    int lastAnimationFrame = -1;
 
     public void ConfigureAnimation(SpriteRenderer renderer, Sprite[] frames, float framesPerSecond)
     {
@@ -20,6 +21,7 @@ public class ObstacleMoverBeat : MonoBehaviour
         animationFrames = frames;
         animationFramesPerSecond = Mathf.Max(1f, framesPerSecond);
         animationStartedAt = Time.time;
+        lastAnimationFrame = -1;
         if (animationRenderer != null && animationFrames != null && animationFrames.Length > 0)
             animationRenderer.sprite = animationFrames[0];
     }
@@ -40,7 +42,11 @@ public class ObstacleMoverBeat : MonoBehaviour
         if (animationRenderer != null && animationFrames != null && animationFrames.Length > 0)
         {
             int frame = Mathf.FloorToInt((Time.time - animationStartedAt) * animationFramesPerSecond) % animationFrames.Length;
-            animationRenderer.sprite = animationFrames[frame];
+            if (frame != lastAnimationFrame)
+            {
+                animationRenderer.sprite = animationFrames[frame];
+                lastAnimationFrame = frame;
+            }
         }
 
         transform.Translate(Vector3.left * speed * Time.deltaTime);

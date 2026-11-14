@@ -6283,6 +6283,7 @@ MonoBehaviour:
   - {fileID: 1366107801, guid: 4dfcd44f1a67e1946b46888d40feea28, type: 3}
   - {fileID: -1980202629, guid: 4dfcd44f1a67e1946b46888d40feea28, type: 3}
   - {fileID: -1836538438, guid: 4dfcd44f1a67e1946b46888d40feea28, type: 3}
+  birdAnimationController: {fileID: 9100000, guid: 200bb925ccf812c498791c40cca6eb90, type: 2}
   birdFramesPerSecond: 12
   birdVisualScale: 5
   logVisualScale: 0.2

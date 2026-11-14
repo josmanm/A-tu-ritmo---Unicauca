@@ -29,3 +29,4 @@ MonoBehaviour:
   - {fileID: 716813948, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
   - {fileID: -2005702768, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
   - {fileID: -1159216268, guid: e2b54e99ae8837c448e7dc0adef542c3, type: 3}
+  speakingController: {fileID: 9100000, guid: 32c54b859bc3d4d46a29a6ecd03a3c09, type: 2}

@@ -245,13 +245,35 @@ public static class ReportUtility
                 });
             var levels = new List<Dictionary<string, object>>();
             foreach (BandaLevelScoreData level in band.levels ?? new List<BandaLevelScoreData>())
-                levels.Add(new Dictionary<string, object>
+            {
+                var levelData = new Dictionary<string, object>
                 {
                     { "level", level.level }, { "songId", level.songId }, { "bpm", level.bpm },
                     { "perfect", level.perfect }, { "near", level.near },
                     { "valid", level.valid }, { "far", level.far },
                     { "veryFar", level.veryFar }, { "scoreEarned", level.scoreEarned }
-                });
+                };
+                // Old queued attempts contain scores but not these measurements.
+                if (level.metricsVersion > 0)
+                {
+                    levelData["metricsVersion"] = level.metricsVersion;
+                    levelData["completed"] = level.completed;
+                    levelData["plannedBeats"] = level.plannedBeats;
+                    levelData["expectedBeats"] = level.expectedBeats;
+                    levelData["registeredTaps"] = level.registeredTaps;
+                    levelData["onBeat"] = level.onBeat;
+                    levelData["missed"] = level.missed;
+                    levelData["extra"] = level.extra;
+                    levelData["early"] = level.early;
+                    levelData["late"] = level.late;
+                    levelData["durationSeconds"] = level.durationSeconds;
+                    if (level.hasMeanAbsoluteOffsetMs)
+                        levelData["meanAbsoluteOffsetMs"] = level.meanAbsoluteOffsetMs;
+                    if (level.hasHitRatePercent)
+                        levelData["hitRatePercent"] = level.hitRatePercent;
+                }
+                levels.Add(levelData);
+            }
             result["bandaMusical"] = new Dictionary<string, object>
             {
                 { "songId", band.songId },
