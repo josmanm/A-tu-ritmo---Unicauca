@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Nivel 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0fd7fd681e2ddb847a4422d57a1dbbbc, type: 2}
+  m_sharedMaterial: {fileID: -1617307684101194480, guid: 0fd7fd681e2ddb847a4422d57a1dbbbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -204,8 +204,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Puntaje 100
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0fd7fd681e2ddb847a4422d57a1dbbbc, type: 2}
+  m_sharedMaterial: {fileID: -1617307684101194480, guid: 0fd7fd681e2ddb847a4422d57a1dbbbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -822,8 +822,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "MEN\xDA"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0fd7fd681e2ddb847a4422d57a1dbbbc, type: 2}
+  m_sharedMaterial: {fileID: -1617307684101194480, guid: 0fd7fd681e2ddb847a4422d57a1dbbbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
